@@ -1,0 +1,320 @@
+#table_resp_2 a {
+	margin: 0px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+
+#table_resp_2 a:focus {
+	outline: none !important;
+}
+
+#table_resp_2 a:hover {
+	text-decoration: none;
+}
+
+/* ------------------------------------ */
+#table_resp_2 h1,h2,h3,h4,h5,h6 {margin: 0px;}
+
+#table_resp_2 p {margin: 0px;}
+
+#table_resp_2 ul, li {
+	margin: 0px;
+	list-style-type: none;
+}
+
+
+/* ------------------------------------ */
+#table_resp_2 input {
+  display: block;
+	outline: none;
+	border: none !important;
+}
+
+#table_resp_2 textarea {
+  display: block;
+  outline: none;
+}
+
+#table_resp_2 textarea:focus, input:focus {
+  border-color: transparent !important;
+}
+
+/* ------------------------------------ */
+#table_resp_2 button {
+	outline: none !important;
+	border: none;
+	background: transparent;
+}
+
+#table_resp_2 button:hover {
+	cursor: pointer;
+}
+
+#table_resp_2 iframe {
+	border: none !important;
+}
+
+
+#table_resp_2 .limiter {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#table_resp_2 .container-table100 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+#table_resp_2 .wrap-table100 {
+  width: 1170px;
+}
+
+#table_resp_2  {
+  border-spacing: 1;
+  border-collapse: collapse;
+  background: #ededed;
+  border-radius: 10px;
+margin-top: 10px !important;
+  width: 100%;
+  margin: 0 auto;
+
+}
+#table_resp_2  * {
+  position: relative;
+}
+#table_resp_2  td, #table_resp_2 th {
+  padding-left: 8px;
+}
+#table_resp_2 thead tr {
+  height: 30px;
+  background: #3c688f;
+}
+#table_resp_2 tbody tr {
+  height: 50px;
+}
+#table_resp_2 tbody tr:last-child {
+  border: 0;
+}
+#table_resp_2  td, #table_resp_2  th {
+  text-align: left;
+}
+#table_resp_2  td.l, #table_resp_2  th.l {
+  text-align: right;
+}
+#table_resp_2  td.c, #table_resp_2  th.c {
+  text-align: center;
+}
+#table_resp_2  td.r, #table_resp_2  th.r {
+  text-align: center;
+}
+
+
+#table_resp_2 .table100-head th{
+  font-family: OpenSans-Regular;
+  font-size: 14px;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: unset;
+}
+
+#table_resp_2 tbody tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+#table_resp_2 tbody tr {
+  font-family: OpenSans-Regular;
+  font-size: 14px;
+  color: #808080;
+  line-height: 1.2;
+  font-weight: unset;
+}
+
+#table_resp_2 tbody tr:hover {
+  color: #555555;
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+/*#table_resp_2 .column1 {
+  width: 10px;
+ 
+}
+
+#table_resp_2 .column2 {
+  width: 10px;
+  
+}
+
+#table_resp_2 .column3 {
+  width: 10px;
+  width: 245px;
+}
+
+#table_resp_2 .column4 {
+  width: 30px;
+ 
+}
+
+#table_resp_2 .column5 {
+      width: 150px;
+
+}
+
+#table_resp_2 .column6 {
+   width: 30px;
+
+}
+#table_resp_2 .column7 {
+   width: 30px;
+  
+}
+
+#table_resp_2 .column8 {
+       width: 150px;
+  
+}
+
+#table_resp_2 .column9 {
+       width: 150px;
+
+}
+
+#table_resp_2 .column10 {
+       width: 150px;
+  
+}*/
+
+@media screen and (max-width: 680px) {
+   #table_resp_2  tbody tr:last-child {
+    border: 0;
+    border: 3px solid #fff8f8;
+}
+.border_left {
+     border-right-style: none; 
+     /*border-right-color: white; 
+    border-width: 1px;
+    padding-right: 8px;*/
+}
+   #table_resp_2 {
+    display: block;
+  }
+   #table_resp_2 > *, #table_resp_2 tr, #table_resp_2 td, #table_resp_2 th {
+    display: block;
+  }
+  #table_resp_2 thead {
+    display: none;
+  }
+  #table_resp_2 tbody tr {
+    height: auto;
+    padding: 7px 0;
+        
+  }
+  #table_resp_2 tbody tr td {
+    /*padding-left: 40% !important;*/
+    margin-bottom: 2px;
+  }
+  #table_resp_2 tbody tr td:last-child {
+    margin-bottom: 0;
+  }
+  #table_resp_2 tbody tr td:before {
+    font-family: OpenSans-Regular;
+    font-size: 10px;
+    color: #999999;
+    line-height: 1.2;
+    font-weight: unset;
+    position: absolute;
+    width: 40%;
+    left: 30px;
+    top: 0;
+  }
+ /* #table_resp_2 tbody tr td:nth-child(1):before {
+    content: "Excluir";
+  }
+  #table_resp_2 tbody tr td:nth-child(2):before {
+    content: "Línea";
+  }
+  #table_resp_2 tbody tr td:nth-child(3):before {
+    content: "Descripción";
+  }
+  #table_resp_2 tbody tr td:nth-child(4):before {
+    content: "Cantidad	";
+  }
+  #table_resp_2 tbody tr td:nth-child(5):before {
+    content: "Precio Unitario	";
+  }
+  #table_resp_2 tbody tr td:nth-child(6):before {
+    content: "Monto de Descuento";
+  }
+    #table_resp_2 tbody tr td:nth-child(7):before {
+    content: "Monto de Impuesto";
+  }
+    #table_resp_2 tbody tr td:nth-child(8):before {
+    content: "Total Neto";
+  }
+      #table_resp_2 tbody tr td:nth-child(9):before {
+    content: "Total Linea";
+  }
+      #table_resp_2 tbody tr td:nth-child(9):before {
+    content: "SubTotal";
+  }
+        #table_resp_2 tbody tr td:nth-child(10):before {
+    content: "Total";
+  }*/
+
+  #table_resp_2 .column4,
+  #table_resp_2 .column5,
+  #table_resp_2 .column6 {
+    text-align: left;
+  }
+
+  #table_resp_2 .column4,
+  #table_resp_2 .column5,
+ #table_resp_2  .column6,
+ #table_resp_2 .column1,
+ #table_resp_2 .column2,
+ #table_resp_2 .column3 {
+    width: 100%;
+  }
+
+   #table_resp_2 tbody tr {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  #table_resp_2 .container-table100 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+ 
+/*.border_left {
+    border-right-style: solid;
+    border-right-color: white;
+    border-width: 1px;
+    padding-right: 8px;
+}*/
+
+                        .table_resp_no{
+                                display: none !important;
+                        }
+#table_resp1{
+    background-color: #e5e5e5;
+    text-align: center;
+    width: 100%;                   
+}                        
+#table_resp1 td, #table_resp1 th {
+    font-size: 10px;
+    padding: 0;
+    width: 15% !important;
+}

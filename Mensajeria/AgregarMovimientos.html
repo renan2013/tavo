@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html class="loading" lang="es" data-textdirection="ltr">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+  <title>MT - Movimientos</title>
+  <link rel="apple-touch-icon" href="recursos/images/ico/truck-icon-120.png">
+  <link rel="shortcut icon" type="image/x-icon" href="recursos/images/ico/tracking.png">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i%7CMuli:300,400,500,700"
+    rel="stylesheet">
+  <!-- BEGIN VENDOR CSS-->
+  <link rel="stylesheet" type="text/css" href="recursos/css/vendors.css">
+  <!-- END VENDOR CSS-->
+  <!-- BEGIN ROBUST CSS-->
+  <link rel="stylesheet" type="text/css" href="recursos/css/app.css">
+  <!-- END ROBUST CSS-->
+  <!-- BEGIN Page Level CSS-->
+  <link rel="stylesheet" type="text/css" href="recursos/css/core/menu/menu-types/vertical-menu.css">
+  <link rel="stylesheet" type="text/css" href="recursos/css/core/colors/palette-gradient.css">
+  <!-- END Page Level CSS-->
+  <!-- BEGIN Custom CSS-->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- END Custom CSS-->
+  <!-- BEGIN VUE.JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-resource/1.5.1/vue-resource.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.12.16/parser.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vuex/3.1.1/vuex.js"></script>
+  <script src="https://unpkg.com/lodash@4.13.1/lodash.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
+  <!-- END VUE.JS-->
+
+  <link rel="stylesheet" href="css/autocompletar.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+
+</head>
+
+<body class="vertical-layout">
+
+  <!-- Titulo y breadcrumb -->
+  <div class="app-content content" id="appcontrol">
+    <div class="content-wrapper">
+
+      <!-- Basic form layout section start -->
+      <div class="content-body">
+        <section id="basic-form-layouts">
+          <div class="row justify-content-md-center">
+            <div class="col-md-12">
+              <div class="card ">
+                <div class="card-header">
+                    <!--Boton Buscar-->
+                    <h4 class="form-section"><i class="ft-user"></i>Agregar Movimientos</h4><br>
+
+                    <label>Cliente </label>
+    
+                    <div class="row">
+                      <div class="col-4">
+                        <input class=" form-control" type="text" placeholder="Nombre..." v-model="valorBuscar">
+                      </div>
+                      <div class="col-4">
+                        <p>{{ notas }}</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <select v-model="clienteActivo" class="form-control" @change="seleccionarCliente()">
+                          <option v-for="item in camposCliente"
+                            :value="{ COD_CLIENTE: item.COD_CLIENTE, NOM_CLIENTE: item.NOM_CLIENTE, NUM_IDENTIFICACION: item.NUM_IDENTIFICACION }">
+                            {{item.NOM_CLIENTE}}
+                          </option>
+                        </select>
+                      </div>
+                    </div>
+                    <!--Buscar Fin-->
+                    <br>
+                </div>
+                <div class="card-body">
+                  <form class="form">
+                    <div class="form-body">
+
+                      <!-- Sección Datos Cliente -->
+                      <h4 class="form-section"><i class="fa fa-briefcase"></i>Registro de movimientos por cobrar</h4>
+
+                      <!-- Fila 1 -->
+                      <div class="row">
+                        <div class="col-md-2">
+                          <div class="form-group">
+                            <label for="fecha">Fecha</label>
+                            <input type="date" class="form-control" v-model="listaMovimientos.FEC_DOCUMENTO" required>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col-md-2">
+                          <div class="form-group">
+                            <label for="cedCliente">Cédula Cliente</label>
+                            <input type="text" v-model="NUM_IDENTIFICACION" readonly required class="form-control">
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <label for="cliente">Cliente</label>
+                            <div class="position-relative has-icon-left">
+                              <input type="text" v-model="NOM_CLIENTE" readonly class="form-control" required>
+                              <div class="form-control-position">
+                                <i class="ft-user"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <label for="mensajero">Mensajero</label>
+                            <select class="form-control" v-model="listaMovimientos.COD_MENSAJERO" ref="printerSelect"
+                              required>
+                              <option v-for="item in campos" :value="{ id: item.COD_CLIENTE }">
+                                {{item.NOM_CLIENTE}}
+                              </option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <br>
+                      <!-- Fila 2 -->
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <label for="tipoCobro">Tipo Cobro</label>
+                            <select class="form-control" v-model="listaMovimientos.TIP_COBRO" required>
+                              <option v-for="item in camposCobro.rows" v-bind:value="{ id: item.TIP_COBRO }">
+                                {{item.TIP_COBRO}} - {{item.DES_COBRO}}</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <label for="tipoMovimiento">Tipo Movimiento</label>
+                            <select class="form-control" v-model="listaMovimientos.TIP_MOVIMIENTO" required>
+                              <option v-for="item in tipoMov" v-bind:value="{ id: item.id }">{{item.campo}}</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <label for="montoCobro">Monto a cobrar</label>
+                            <div class="input-group mb-3">
+                              <div class="input-group-prepend">
+                                <span class="input-group-text">₡</span>
+                              </div>
+                              <input type="text" class="form-control" v-model="listaMovimientos.MTO_COBRAR" required>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Fila 3 -->
+                      <div class="row">
+                        <div class="col-md-5">
+                          <div class="form-group">
+                            <label for="observaciones">Observaciones</label>
+                            <textarea v-model="listaMovimientos.DES_OBSERVACIONES" class="form-control"
+                              style="resize: vertical;" rows="3" maxlength="500" required></textarea>
+                          </div>
+                        </div>
+                      </div>
+                    </div> <!-- form group end -->
+
+                    <div class="form-actions">
+                      <button type="button" @click.prevent="disableButton($event)" class="btn btn-info">
+                        <i class="ft-save"></i> Agregar</button>
+                      <button type="button" class="btn btn-danger mr-1">
+                        <i class="ft-x"></i> Cancelar
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <!-- // Basic form layout section end -->
+    </div>
+  </div>
+
+  <!-- ////////////////////////////////////////////////////////////////////////////-->
+
+  <!-- BEGIN Custom JS-->
+  <script language="JavaScript" type="text/javascript" src="js/Request.js"></script>
+  <script language="JavaScript" type="text/javascript" src="js/MensaStore.js"></script>
+  <script language="JavaScript" type="text/javascript" src="js/AgregarMovimientos.js"></script>
+  <!-- END Custom JS-->
+  <!-- BEGIN VENDOR JS-->
+  <script src="recursos/vendors/js/vendors.min.js"></script>
+  <!-- END VENDOR JS-->
+  <!-- BEGIN PAGE VENDOR JS-->
+  <script src="recursos/vendors/js/extensions/listjs/list.min.js"></script>
+  <script src="recursos/vendors/js/extensions/listjs/list.fuzzysearch.min.js"></script>
+  <script src="recursos/vendors/js/extensions/listjs/list.pagination.min.js"></script>
+  <!-- END PAGE VENDOR JS-->
+  <!-- BEGIN ROBUST JS-->
+  <script src="recursos/js/core/app-menu.js"></script>
+  <script src="recursos/js/core/app.js"></script>
+  <!-- END ROBUST JS-->
+  <!-- BEGIN PAGE LEVEL JS
+  <script src="js/autocompletar.js"></script>-->
+  <!-- END PAGE LEVEL JS-->
+
+</body>
+
+</html>

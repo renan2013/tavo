@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+  
+  
+  <button onclick="inicio()">Click me</button>
+ 
+  
+<div class="app-content content" id="appCliente">
+        <div class="content-wrapper">
+            <div class="content-header row">
+                <div class="content-header-left col-md-8 col-12 mb-2 breadcrumb-new">
+                    <h3 class="content-header-title mb-0 d-inline-block">Clientes</h3>
+                    <div class="row breadcrumbs-top d-inline-block">
+                        <div class="breadcrumb-wrapper col-12">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Inicio</a>
+                                </li>
+                                <li class="breadcrumb-item"><a href="#">Clientes</a>
+                                </li>
+                                <li class="breadcrumb-item active">Lista Clientes</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Basic form layout section start -->
+            <div class="content-body">
+                <section class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <!--Encabezado de página-->
+                            <div class="card-head">
+                                <div class="card-header">
+                                    <h4 class="card-title">Lista Clientes</h4>
+                                    <a class="heading-elements-toggle"><i class="ft-ellipsis-h font-medium-3"></i></a>
+                                    <div class="heading-elements">
+                                        <button class="btn btn-primary btn-sm"><i class="ft-plus white"></i> Nuevo
+                                            Cliente</button>
+                                        {{ $data | json}}
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Lista clientes-->
+                            <div class="card-content">
+                                <div class="card-body">
+                                    <!-- Task List table -->
+                                    <div class="table-responsive">
+                                        <table id="users-contacts"
+                                            class="table table-white-space table-bordered row-grouping display no-wrap icheck table-middle">
+                                            <thead>
+                                                <tr>
+                                                    
+                                                    <th>Cédula</th>
+                                                    <th>Nombre</th>
+                                                    <th>Teléfono</th>
+                                                    <th>Dirección</th>
+                                                    <th>Editar</th>
+                                                    <th>Eliminar</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>123456
+                                                    </td>
+                                                    <td id="us">
+                                                            <label> {{ user}} </label>
+                                                        
+                                                    </td>
+                                                    <td class="text-center">
+                                                        +658-254-256
+                                                    </td>
+                                                    <td>PURIS </td>
+                                                    <td><button class="btn btn-info btn-lg"><i
+                                                                class="fa fa-pencil black"></i></button>
+                                                                </td>
+                                                    <td>
+                                                        
+                                                        
+                                                        <button class="btn btn-danger btn-lg"><i
+                                                                class="fa fa-times black"></i></button>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot>
+                                                <tr>
+                                                    <th></th>
+                                                    <th>Cédula</th>
+                                                    <th>Nombre</th>
+                                                    <th>Teléfono</th>
+                                                    <th>Dirección</th>
+                                                    <th></th>
+                                                </tr>
+                                            </tfoot>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script>  
+var vm = new Vue({
+    el: '#appCliente',
+    data: {
+         peticion: [],
+         user:"Ademar"
+    }
+    }
+    );
+var peticion ={
+   "datos":"",
+   "dml":"",
+   "formato": "",
+   "credencial":"",
+   "formatoRequest": "",
+    "codigoerror": "",
+    "deserror" : ""
+    
+};
+
+
+ function  inicio()
+ { 
+  
+  dsoaReques(
+          "<SOA_Xml\n" +
+"    xmlns=\"DIVISOFT\">\n" +
+"  <Header>\n" +
+"    <HeaderItem>\n" +
+"      <Nombre>MODO</Nombre>\n" +
+"      <Valor>JJ</Valor>\n" +
+"    </HeaderItem>\n" +
+"    <HeaderItem>\n" +
+"      <Nombre>OBJECTID</Nombre>\n" +
+"      <Valor>756</Valor>\n" +
+"    </HeaderItem>\n" +
+"    <HeaderItem>\n" +
+"      <Nombre>CREDENCIAL</Nombre>\n" +
+"      <Valor>6015093692d2e65a60256ce97da38dae854c1571</Valor>\n" +
+"    </HeaderItem>\n" +
+"    <HeaderItem>\n" +
+"      <Nombre>SUPERVISOR</Nombre>\n" +
+"      <Valor/>\n" +
+"    </HeaderItem>\n" +
+"    <HeaderItem>\n" +
+"      <Nombre>OBJOWNER</Nombre>\n" +
+"      <Valor>SAC</Valor>\n" +
+"    </HeaderItem>\n" +
+"    <HeaderItem>\n" +
+"      <Nombre>NUM_HILO_ACTIVO</Nombre>\n" +
+"      <Valor/>\n" +
+"    </HeaderItem>\n" +
+"    <HeaderItem>\n" +
+"      <Nombre>NUM_HILO</Nombre>\n" +
+"      <Valor/>\n" +
+"    </HeaderItem>\n" +
+"    <HeaderItem>\n" +
+"      <Nombre>OBJECTNAME</Nombre>\n" +
+"      <Valor>GEN_CLIENTES</Valor>\n" +
+"    </HeaderItem>\n" +
+"    <HeaderItem>\n" +
+"      <Nombre>OBJECTMETODO</Nombre>\n" +
+"      <Valor/>\n" +
+"    </HeaderItem>\n" +
+"    <HeaderItem>\n" +
+"      <Nombre>CANT_REGISTROS</Nombre>\n" +
+"      <Valor>0</Valor>\n" +
+"    </HeaderItem>\n" +
+"    <HeaderItem>\n" +
+"      <Nombre>REGISTROSXPAGINA</Nombre>\n" +
+"      <Valor>10</Valor>\n" +
+"    </HeaderItem>\n" +
+"    <HeaderItem>\n" +
+"      <Nombre>PAGINA</Nombre>\n" +
+"      <Valor>1</Valor>\n" +
+"    </HeaderItem>\n" +
+"  </Header>\n" +
+"  <Param>\n" +
+"    <ParamItem>\n" +
+"      <Nombre>COD_CIA</Nombre>\n" +
+"      <Operador>IGUAL</Operador>\n" +
+"      <Valor1>126</Valor1>\n" +
+"    </ParamItem> \n" +
+"  </Param>\n" +
+"  <Filas>\n" +
+"    <FilaItem>\n" +
+"      <Nombre>COD_CIA</Nombre>\n" +
+"      <Valor/>\n" +
+"    </FilaItem> \n" +
+"    <FilaItem>\n" +
+"      <Nombre>COD_CLIENT</Nombre>\n" +
+"      <Valor/>\n" +
+"    </FilaItem>\n" +
+"    <FilaItem>\n" +
+"      <Nombre>NOMBRE</Nombre>\n" +
+"      <Valor/>\n" +
+"    </FilaItem>\n" +
+"    <FilaItem>\n" +
+"      <Nombre>ESTADO</Nombre>\n" +
+"      <Valor/>\n" +
+"    </FilaItem>\n" +
+"    <FilaItem>\n" +
+"      <Nombre>CLASIFICACION</Nombre>\n" +
+"      <Valor/>\n" +
+"    </FilaItem>\n" +
+"    <FilaItem>\n" +
+"      <Nombre>CEDULA</Nombre>\n" +
+"      <Valor/>\n" +
+"    </FilaItem>\n" +
+"    <FilaItem>\n" +
+"      <Nombre>DIRECCION</Nombre>\n" +
+"      <Valor/>\n" +
+"    </FilaItem>\n" +
+"    <FilaItem>\n" +
+"      <Nombre>LUGAR_TRABAJO</Nombre>\n" +
+"      <Valor/>\n" +
+"    </FilaItem>\n" +
+"    <FilaItem>\n" +
+"      <Nombre>COD_ZONA</Nombre>\n" +
+"      <Valor/>\n" +
+"    </FilaItem>\n" +
+"    <FilaItem>\n" +
+"      <Nombre>COD_RUTA</Nombre>\n" +
+"      <Valor/>\n" +
+"    </FilaItem>\n" +
+"    <FilaItem>\n" +
+"      <Nombre>NUM_TELE</Nombre>\n" +
+"      <Valor/>\n" +
+"    </FilaItem>\n" +
+"    <FilaItem>\n" +
+"      <Nombre>NUM_TELE1</Nombre>\n" +
+"      <Valor/>\n" +
+"    </FilaItem>\n" +
+"    <FilaItem>\n" +
+"      <Nombre>FAX</Nombre>\n" +
+"      <Valor/>\n" +
+"    </FilaItem>\n" +
+"    <FilaItem>\n" +
+"      <Nombre>FECHA_ING</Nombre>\n" +
+"      <Valor/>\n" +
+"    </FilaItem>\n" +
+"    <FilaItem>\n" +
+"      <Nombre>USUARIO_MOD</Nombre>\n" +
+"      <Valor/>\n" +
+"    </FilaItem>\n" +
+"    <FilaItem>\n" +
+"      <Nombre>FECHA_MOD</Nombre>\n" +
+"      <Valor/>\n" +
+"    </FilaItem>\n" +
+"    <FilaItem>\n" +
+"      <Nombre>OBSERVACIONES</Nombre>\n" +
+"      <Valor/>\n" +
+"    </FilaItem>\n" +
+"    <FilaItem>\n" +
+"      <Nombre>IND_TIPSEX</Nombre>\n" +
+"      <Valor/>\n" +
+"    </FilaItem>\n" +
+"    <FilaItem>\n" +
+"      <Nombre>COD_ALTERNO</Nombre>\n" +
+"      <Valor/>\n" +
+"    </FilaItem>\n" +
+"    <FilaItem>\n" +
+"      <Nombre>DES_AVISO</Nombre>\n" +
+"      <Valor/>\n" +
+"    </FilaItem>\n" +
+"    <FilaItem>\n" +
+"      <Nombre>DE_OCUPAC</Nombre>\n" +
+"      <Valor/>\n" +
+"    </FilaItem>\n" +
+"    <FilaItem>\n" +
+"      <Nombre>IND_ESTCIV</Nombre>\n" +
+"      <Valor/>\n" +
+"    </FilaItem>\n" +
+"    <FilaItem>\n" +
+"      <Nombre>IND_TIPCLI</Nombre>\n" +
+"      <Valor/>\n" +
+"    </FilaItem>\n" +
+"    <FilaItem>\n" +
+"      <Nombre>FEC_NACIMI</Nombre>\n" +
+"      <Valor/>\n" +
+"    </FilaItem>\n" +
+"    <FilaItem>\n" +
+"      <Nombre>POR_DESCLI</Nombre>\n" +
+"      <Valor/>\n" +
+"    </FilaItem>\n" +
+"    <FilaItem>\n" +
+"      <Nombre>NUM_TELCEL</Nombre>\n" +
+"      <Valor/>\n" +
+"    </FilaItem>\n" +
+"    <FilaItem>\n" +
+"      <Nombre>TIPO_IDENTIFICACION</Nombre>\n" +
+"      <Valor/>\n" +
+"    </FilaItem>\n" +
+"    <FilaItem>\n" +
+"      <Nombre>CODIGO_PAIS</Nombre>\n" +
+"      <Valor/>\n" +
+"    </FilaItem>\n" +
+"    <FilaItem>\n" +
+"      <Nombre>PROVINCIA</Nombre>\n" +
+"      <Valor/>\n" +
+"    </FilaItem>\n" +
+"    <FilaItem>\n" +
+"      <Nombre>DI_PROVINCIA</Nombre>\n" +
+"      <Valor>P</Valor>\n" +
+"    </FilaItem>\n" +
+"    <FilaItem>\n" +
+"      <Nombre>CANTON</Nombre>\n" +
+"      <Valor/>\n" +
+"    </FilaItem>\n" +
+"    <FilaItem>\n" +
+"      <Nombre>DI_CANTON</Nombre>\n" +
+"      <Valor>P</Valor>\n" +
+"    </FilaItem>\n" +
+"    <FilaItem>\n" +
+"      <Nombre>DISTRITO</Nombre>\n" +
+"      <Valor/>\n" +
+"    </FilaItem>\n" +
+"    <FilaItem>\n" +
+"      <Nombre>DI_DISTRITO</Nombre>\n" +
+"      <Valor>P</Valor>\n" +
+"    </FilaItem>\n" +
+"    <FilaItem>\n" +
+"      <Nombre>UBICACION</Nombre>\n" +
+"      <Valor/>\n" +
+"    </FilaItem>\n" +
+"    <FilaItem>\n" +
+"      <Nombre>DI_UBICACION</Nombre>\n" +
+"      <Valor>P</Valor>\n" +
+"    </FilaItem>\n" +
+"    <FilaItem>\n" +
+"      <Nombre>CORREO</Nombre>\n" +
+"      <Valor/>\n" +
+"    </FilaItem>\n" +
+"    <FilaItem>\n" +
+"      <Nombre>RAZON_SOCIAL</Nombre>\n" +
+"      <Valor/>\n" +
+"    </FilaItem>\n" +
+"    <FilaItem>\n" +
+"      <Nombre>NUM_DOC</Nombre>\n" +
+"      <Valor/>\n" +
+"    </FilaItem>\n" +
+"  </Filas>\n" +
+"</SOA_Xml>",   
+         "JJ",
+         "1235666",
+         "N",
+         "64");
+         
+    console.log("datos procesados 3  ");     
+    
+    console.log("Datos "+peticion.datos);     
+ };
+     
+ 
+function  dsoaReques( 
+         datos,
+         dml,
+         credencial,
+         formatoenvio,
+         formatorecibe
+                 )
+         {
+    peticion.dml= dml;
+    peticion.formato=formatoenvio;
+    peticion.datos= datos;
+    peticion.formatoRequest=formatorecibe;
+    peticion.credencial=credencial;
+    console.log("version 2")
+    
+var settings = {
+  "async": true,
+  "crossDomain": true,
+  "method": "POST",
+  "headers": {
+    "Content-Type": "application/json",
+    "User-Agent": "PostmanRuntime/7.13.0",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "1cb4a54f-da49-4482-85eb-bce431587754,74b88a7d-dabb-4ac3-9c3c-424f11f74706",
+    "Host": "localhost:8089",
+    "accept-encoding": "gzip, deflate",
+    "content-length": "6104",
+    "Connection": "keep-alive",
+    "cache-control": "no-cache"
+  },
+  "processData": false,
+  "data": peticion
+}
+    
+  axios.post("http://192.168.0.28:8089/DsoaService2/dsoa/request", settings)
+  .then(function (response) {
+      
+     console.log(response.data);
+     // return response.data ;
+    peticion=  response.data ;
+    //console.log("datos procesados");
+    //console.log(peticion.datos);
+    //return peticion;
+    
+    //JSON.parse('{ "name":"John", "age":30, "city":"New York"}');
+  })
+  .catch(function (error) {
+    console.log("SE PRODUJO ERROR "+error);
+  });
+  
+}; 
+
+ 
+</script>
+
+</body> 
+</html>
+

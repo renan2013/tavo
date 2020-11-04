@@ -1,0 +1,90 @@
+<Parametros>
+    <TipoConexion>N</TipoConexion><!--N:Normal .close, C:Continous Static, P: pool de conexiones -->
+	<DBContext>java:/comp/env/DSOAServidor26</DBContext>
+	<DSOA2>java:/comp/env/DSOA2</DSOA2>
+	<Ambiente>1</Ambiente>
+	<SeparadorDirectorio>\</SeparadorDirectorio>
+
+	
+	<ArchivosPermitidos>
+
+		<Archivo>
+			<Extension>.jpg</Extension>
+			<MimeType>jpg</MimeType>
+			<Descripcion></Descripcion>
+		</Archivo>
+
+		<Archivo>
+			<Extension>.png</Extension>
+			<MimeType>png</MimeType>
+			<Descripcion></Descripcion>
+		</Archivo>
+
+		<Archivo>
+			<Extension>.jpeg</Extension>
+			<MimeType>jpeg</MimeType>
+			<Descripcion></Descripcion>
+		</Archivo>
+
+		<Archivo>
+			<Extension>.bpm</Extension>
+			<MimeType>bpm</MimeType>
+			<Descripcion></Descripcion>
+		</Archivo>
+
+		<Archivo>
+			<Extension>.pdf</Extension>
+			<MimeType>pdf</MimeType>
+			<Descripcion></Descripcion>
+		</Archivo>
+
+		<Archivo>
+			<Extension>.doc</Extension>
+			<MimeType>msword</MimeType>
+			<Descripcion></Descripcion>
+		</Archivo>
+
+		<Archivo>
+			<Extension>.docx</Extension>
+			<MimeType>vnd.openxmlformats-officedocument.wordprocessingml.document</MimeType>
+			<Descripcion></Descripcion>
+		</Archivo>
+
+		<Archivo>
+			<Extension>.xlsx</Extension>
+			<MimeType>vnd.openxmlformats-officedocument.spreadsheetml.sheet</MimeType>
+			<Descripcion></Descripcion>
+		</Archivo>
+
+		<Archivo>
+			<Extension>.xls</Extension>
+			<MimeType>vnd.ms-excel</MimeType>
+			<Descripcion></Descripcion>
+		</Archivo>
+
+		<Archivo>
+			<Extension>.pptx</Extension>
+			<MimeType>vnd.openxmlformats-officedocument.presentationml.presentation</MimeType>
+			<Descripcion></Descripcion>
+		</Archivo>
+
+		<Archivo>
+			<Extension>ppt</Extension>
+			<MimeType>vnd.ms-powerpoint</MimeType>
+			<Descripcion></Descripcion>
+		</Archivo>
+
+		<Archivo>
+			<Extension>.txt</Extension>
+			<MimeType>txt</MimeType>
+			<Descripcion></Descripcion>
+		</Archivo>
+
+		<Archivo>
+			<Extension>.gif</Extension>
+			<MimeType>gif</MimeType>
+			<Descripcion></Descripcion>
+		</Archivo>
+
+	</ArchivosPermitidos>
+</Parametros>

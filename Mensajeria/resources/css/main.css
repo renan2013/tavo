@@ -1,0 +1,241 @@
+/*----nombre titulo------*/
+#nombresistemarow{
+    color:#054a73 !important;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+#nombresistemarow h2{
+font-size:20px;
+}
+
+.row{
+    margin-right:0px !important;
+}
+/*---------------quitar que se separen-------------------------*/
+@media(min-width:992px){
+    #Allmenu .col-md-3{
+        width: 0% !important;
+    }
+}
+
+/*--------------Header------------------------*/
+#Header{
+    width: 100%;
+}
+#wrapHeader i{
+color:#054a73 !important;
+}
+#wrapHeader .btn{
+color:#054a73 !important;
+}
+#wrapHeader{
+   /* border-bottom: 1px solid black;*/
+   background-color: #f6f6f6;
+    height:80px;
+    width:100%; 
+    color:#054a73 !important;
+    
+}
+
+.menu-fixed {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, .5);
+    margin-top: 10%;
+}
+#nombresistemarow #powered{
+    width: 90px;
+    top:30px;
+    margin-top: -10px;
+    margin-left:60px;
+}
+
+#drop_usuario{
+    margin-left: 25%;
+    margin-top: 10px;
+}
+/*---------------Menu------------------------*/
+#wrapMenu{
+    margin-top:1%;
+}
+
+#rowBtnToogleMenu{
+    background-color: #59758e; 
+    color:white;
+    width:110%; 
+    margin-left: 0%;
+   /* border-radius: 15px 50px 30px 5px;*/
+   /* box-shadow: 5px 5px 5px #888888;*/
+}
+
+#Allmenu{
+   /* margin-top: 6%;*/
+    
+}
+
+#wrapMenu #rowBtnToogleMenu p{
+    padding:5px;
+} 
+
+#wrapMenu #rowBtnToogleMenu .glyphicon{
+    padding:7px;
+} 
+#logo{
+    margin-left: 80%;
+}
+
+/*--------------Index-----------------------*/
+body{
+  /*background-color: #59758e;*/
+  background-color: WHITE;
+ /* color: #fff;*/
+}
+/*--------------Mante---------------------*/
+ 
+/*--------------Grid---------------------*/
+#work{
+    background-color: white;
+    margin-left: 0%;
+    margin-top: 1px;
+/*    width: 90% !important;*/
+    
+}
+#work h1{
+    margin-left:40px !important; 
+    font-size:20px !important;
+}
+
+
+
+#botoneraArriba{
+    margin-left: 4%;
+}
+
+#GRID{
+    margin-left: 4%;
+}
+.menu{
+     background-color:#f7f7f7;
+}
+#FILTROSTABLE{
+    width: 50%;
+    margin-top:20px !important;
+    margin-bottom:20px !important;
+    margin: 0;
+}
+ 
+#FILTROSTABLE thead td{
+    background-color:#59758e;
+    color:#fff;
+   
+}
+
+.table-responsive{
+    display: none;
+}
+.table-responsive .table{
+    margin-top:10px !important;
+    width:90%;
+}
+.table-responsive .table thead tr{
+    background-color:#59758e;
+    color:#fff;
+   
+}
+.table-responsive .table tfoot tr{
+    background-color:#8e8f90;
+    color:#fff;
+   
+}
+ 
+#botoneraArriba{
+    width: 400px !important;
+}
+
+#FILTROS{
+    display:none;
+}
+
+#FILTROS .Section{
+    margin-top: 10px;
+}
+.table-responsive row{
+    width: 10px !important;
+}
+.botonera_abajo{
+    width: 160px;
+    margin-left: 35%;
+}
+h1{
+    margin-left: 25% !important;
+    color:#59758e !important;
+     font-size: 30px !important;
+}
+.botonera_abajo p{
+    margin-left: -5px !important;
+}
+ 
+.Button{
+    background-color:#8d8f8f !important;
+    color:#fff;
+}
+ 
+/*formulario*/
+
+form{
+    /*color: #054a73 !important;*/
+}
+
+.container{
+   /* background-color:#8d8f8f; */
+  /* background-color: rgba(92, 100, 105, 0.71);*/
+  background-color: #f6f6f6 !important;
+  padding: 15px;
+  
+  border-radius: 15px 50px 30px;
+}
+
+@media (max-width: 1000px) {
+    #Header #logo{
+     
+        margin-left: 60%;
+        margin-top: -60px;
+        width: 250px;
+    }
+
+   #wrapHeader #drop_usuario{
+       margin-top: -60px;
+       margin-left: 32%;
+    }
+    #work h1{
+        padding: 20px !important;
+    }
+    #botoneraArriba{
+        margin-bottom: 10px;
+    }
+    
+}
+
+@media (max-width: 615px) {
+        #Header #logo{
+        display: none !important;
+    }
+
+   #wrapHeader #drop_usuario{
+       margin-top: -60px;
+       margin-left: 50%;
+       
+    }
+       #wrapHeader #drop_usuario i{
+    font-size: 10px;
+       
+    }
+    #work h1{
+        padding: 20px !important;
+    }
+    #botoneraArriba{
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,249 @@
+[{
+	"medida": 174,
+	"desc_medida": "Servicios Profesionales",
+	"siglas": "Sp"
+}, {
+	"medida": 5,
+	"desc_medida": "Kilogramo",
+	"siglas": "kg"
+}, {
+	"medida": 7,
+	"desc_medida": "Unidades",
+	"siglas": "Unid"
+}, {
+	"medida": 9,
+	"desc_medida": "Ampere",
+	"siglas": "A"
+}, {
+	"medida": 11,
+	"desc_medida": "Kelvin",
+	"siglas": "K"
+}, {
+	"medida": 13,
+	"desc_medida": "Mol",
+	"siglas": "mol"
+}, {
+	"medida": 15,
+	"desc_medida": "Candela",
+	"siglas": "cd"
+}, {
+	"medida": 17,
+	"desc_medida": "metro cuadrado",
+	"siglas": "m²"
+}, {
+	"medida": 19,
+	"desc_medida": "metro cúbico",
+	"siglas": "m³"
+}, {
+	"medida": 21,
+	"desc_medida": "metro por segundo",
+	"siglas": "m/s"
+}, {
+	"medida": 25,
+	"desc_medida": "1 por metro",
+	"siglas": "1/m"
+}, {
+	"medida": 31,
+	"desc_medida": "ampere por metro",
+	"siglas": "A/m"
+}, {
+	"medida": 37,
+	"desc_medida": "uno (indice de refracción)",
+	"siglas": "1"
+}, {
+	"medida": 39,
+	"desc_medida": "radián",
+	"siglas": "rad"
+}, {
+	"medida": 41,
+	"desc_medida": "estereorradián",
+	"siglas": "sr"
+}, {
+	"medida": 43,
+	"desc_medida": "hertz",
+	"siglas": "Hz"
+}, {
+	"medida": 45,
+	"desc_medida": "newton",
+	"siglas": "N"
+}, {
+	"medida": 47,
+	"desc_medida": "pascal",
+	"siglas": "Pa"
+}, {
+	"medida": 49,
+	"desc_medida": "Joule",
+	"siglas": "J"
+}, {
+	"medida": 53,
+	"desc_medida": "Watt",
+	"siglas": "W"
+}, {
+	"medida": 55,
+	"desc_medida": "coulomb",
+	"siglas": "C"
+}, {
+	"medida": 57,
+	"desc_medida": "volt",
+	"siglas": "V"
+}, {
+	"medida": 59,
+	"desc_medida": "farad",
+	"siglas": "F"
+}, {
+	"medida": 61,
+	"desc_medida": "ohm",
+	"siglas": "¿"
+}, {
+	"medida": 63,
+	"desc_medida": "siemens",
+	"siglas": "S"
+}, {
+	"medida": 65,
+	"desc_medida": "weber",
+	"siglas": "Wb"
+}, {
+	"medida": 67,
+	"desc_medida": "tesla",
+	"siglas": "T"
+}, {
+	"medida": 69,
+	"desc_medida": "henry",
+	"siglas": "H"
+}, {
+	"medida": 71,
+	"desc_medida": "grado Celsius",
+	"siglas": "°C"
+}, {
+	"medida": 73,
+	"desc_medida": "lumen",
+	"siglas": "lm"
+}, {
+	"medida": 75,
+	"desc_medida": "lux",
+	"siglas": "lx"
+}, {
+	"medida": 77,
+	"desc_medida": "Becquerel",
+	"siglas": "Bq"
+}, {
+	"medida": 79,
+	"desc_medida": "gray",
+	"siglas": "Gy"
+}, {
+	"medida": 81,
+	"desc_medida": "sievert",
+	"siglas": "Sv"
+}, {
+	"medida": 83,
+	"desc_medida": "katal",
+	"siglas": "kat"
+}, {
+	"medida": 87,
+	"desc_medida": "newton metro",
+	"siglas": "N·m"
+}, {
+	"medida": 89,
+	"desc_medida": "newton por metro",
+	"siglas": "N/m"
+}, {
+	"medida": 97,
+	"desc_medida": "joule por kelvin",
+	"siglas": "J/K"
+}, {
+	"medida": 107,
+	"desc_medida": "volt por metro",
+	"siglas": "V/m"
+}, {
+	"medida": 113,
+	"desc_medida": "farad por metro",
+	"siglas": "F/m"
+}, {
+	"medida": 115,
+	"desc_medida": "henry por metro",
+	"siglas": "H/m"
+}, {
+	"medida": 131,
+	"desc_medida": "minuto",
+	"siglas": "min"
+}, {
+	"medida": 133,
+	"desc_medida": "hora",
+	"siglas": "h"
+}, {
+	"medida": 135,
+	"desc_medida": "día",
+	"siglas": "d"
+}, {
+	"medida": 137,
+	"desc_medida": "grado",
+	"siglas": "º"
+}, {
+	"medida": 143,
+	"desc_medida": "litro",
+	"siglas": "L"
+}, {
+	"medida": 145,
+	"desc_medida": "tonelada",
+	"siglas": "t"
+}, {
+	"medida": 147,
+	"desc_medida": "neper",
+	"siglas": "Np"
+}, {
+	"medida": 149,
+	"desc_medida": "bel",
+	"siglas": "B"
+}, {
+	"medida": 151,
+	"desc_medida": "electronvolt",
+	"siglas": "eV"
+}, {
+	"medida": 153,
+	"desc_medida": "unidad de masa atómica unificada",
+	"siglas": "u"
+}, {
+	"medida": 155,
+	"desc_medida": "unidad astronómica",
+	"siglas": "ua"
+}, {
+	"medida": 159,
+	"desc_medida": "Galón",
+	"siglas": "Gal"
+}, {
+	"medida": 161,
+	"desc_medida": "Gramo",
+	"siglas": "g"
+}, {
+	"medida": 163,
+	"desc_medida": "Kilometro",
+	"siglas": "Km"
+}, {
+	"medida": 165,
+	"desc_medida": "pulgada",
+	"siglas": "ln"
+}, {
+	"medida": 167,
+	"desc_medida": "centímetro",
+	"siglas": "cm"
+}, {
+	"medida": 169,
+	"desc_medida": "mililitro",
+	"siglas": "mL"
+}, {
+	"medida": 171,
+	"desc_medida": "Milímetro",
+	"siglas": "mm"
+}, {
+	"medida": 173,
+	"desc_medida": "Onzas",
+	"siglas": "Oz"
+}, {
+	"medida": 1,
+	"desc_medida": "Metros",
+	"siglas": "m"
+}, {
+	"medida": 2,
+	"desc_medida": "Servicios Profesionales",
+	"siglas": "Sp"
+}]

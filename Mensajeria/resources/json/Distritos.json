@@ -1,0 +1,2851 @@
+[{
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 9,
+	"distrito": 3,
+	"nombre": "POZOS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 9,
+	"distrito": 4,
+	"nombre": "URUCA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 9,
+	"distrito": 5,
+	"nombre": "PIEDADES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 9,
+	"distrito": 6,
+	"nombre": "BRASIL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 10,
+	"distrito": 1,
+	"nombre": "CENTRAL ALAJUELITA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 10,
+	"distrito": 2,
+	"nombre": "SAN JOSECITO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 10,
+	"distrito": 3,
+	"nombre": "SAN ANTONIO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 10,
+	"distrito": 4,
+	"nombre": "CONCEPCION"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 10,
+	"distrito": 5,
+	"nombre": "SAN FELIPE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 11,
+	"distrito": 1,
+	"nombre": "SAN ISIDRO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 11,
+	"distrito": 2,
+	"nombre": "SAN RAFAEL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 11,
+	"distrito": 3,
+	"nombre": "JESUS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 11,
+	"distrito": 4,
+	"nombre": "PATALILLO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 11,
+	"distrito": 5,
+	"nombre": "CASCAJAL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 12,
+	"distrito": 1,
+	"nombre": "SAN IGNACIO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 12,
+	"distrito": 2,
+	"nombre": "GUAITIL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 6,
+	"distrito": 1,
+	"nombre": "QUEPOS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 6,
+	"distrito": 2,
+	"nombre": "SAVEGRE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 6,
+	"distrito": 3,
+	"nombre": "NARANJITO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 7,
+	"distrito": 1,
+	"nombre": "CENTRAL GOLFITO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 7,
+	"distrito": 2,
+	"nombre": "JIMENEZ"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 7,
+	"distrito": 3,
+	"nombre": "GUAYCARA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 7,
+	"distrito": 4,
+	"nombre": "PAVON"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 8,
+	"distrito": 1,
+	"nombre": "SAN VITO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 8,
+	"distrito": 2,
+	"nombre": "SABALITO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 8,
+	"distrito": 3,
+	"nombre": "AGUABUENA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 8,
+	"distrito": 4,
+	"nombre": "LIMONCITO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 8,
+	"distrito": 5,
+	"nombre": "PITTIER"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 9,
+	"distrito": 1,
+	"nombre": "CENTRAL PARRITA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 10,
+	"distrito": 1,
+	"nombre": "CORREDOR"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 10,
+	"distrito": 2,
+	"nombre": "LA CUESTA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 10,
+	"distrito": 3,
+	"nombre": "CANOAS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 11,
+	"distrito": 1,
+	"nombre": "JACO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 7,
+	"canton": 1,
+	"distrito": 1,
+	"nombre": "CENTRAL LIMON"
+}, {
+	"codigo_pais": 506,
+	"provincia": 7,
+	"canton": 1,
+	"distrito": 2,
+	"nombre": "LA ESTRELLA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 7,
+	"canton": 1,
+	"distrito": 3,
+	"nombre": "RIO BLANCO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 7,
+	"canton": 1,
+	"distrito": 4,
+	"nombre": "MATAMA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 7,
+	"canton": 2,
+	"distrito": 1,
+	"nombre": "GUAPILES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 7,
+	"canton": 2,
+	"distrito": 2,
+	"nombre": "JIMENEZ"
+}, {
+	"codigo_pais": 506,
+	"provincia": 7,
+	"canton": 2,
+	"distrito": 4,
+	"nombre": "ROXANA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 7,
+	"canton": 2,
+	"distrito": 5,
+	"nombre": "CARIARI"
+}, {
+	"codigo_pais": 506,
+	"provincia": 7,
+	"canton": 2,
+	"distrito": 6,
+	"nombre": "COLORADO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 7,
+	"canton": 3,
+	"distrito": 1,
+	"nombre": "CENTRAL SIQUIRRES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 7,
+	"canton": 3,
+	"distrito": 2,
+	"nombre": "PACUARITO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 7,
+	"canton": 3,
+	"distrito": 3,
+	"nombre": "FLORIDA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 7,
+	"canton": 3,
+	"distrito": 5,
+	"nombre": "EL CAIRO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 7,
+	"canton": 4,
+	"distrito": 1,
+	"nombre": "BRATSI"
+}, {
+	"codigo_pais": 506,
+	"provincia": 7,
+	"canton": 4,
+	"distrito": 2,
+	"nombre": "SIXAOLA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 7,
+	"canton": 4,
+	"distrito": 3,
+	"nombre": "CAHUITA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 7,
+	"canton": 5,
+	"distrito": 1,
+	"nombre": "CENTRAL MATINA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 7,
+	"canton": 5,
+	"distrito": 2,
+	"nombre": "BATAN"
+}, {
+	"codigo_pais": 506,
+	"provincia": 7,
+	"canton": 6,
+	"distrito": 1,
+	"nombre": "CENTRAL GUACIMO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 7,
+	"canton": 6,
+	"distrito": 2,
+	"nombre": "MERCEDES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 7,
+	"canton": 6,
+	"distrito": 4,
+	"nombre": "RIO JIMENEZ"
+}, {
+	"codigo_pais": 506,
+	"provincia": 7,
+	"canton": 6,
+	"distrito": 5,
+	"nombre": "DUACARI"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 1,
+	"distrito": 2,
+	"nombre": "CA?AS DULCES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 1,
+	"distrito": 3,
+	"nombre": "MAYORGA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 1,
+	"distrito": 4,
+	"nombre": "NACASCOLO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 1,
+	"distrito": 5,
+	"nombre": "CURUBANDE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 2,
+	"distrito": 1,
+	"nombre": "CENTRAL NICOYA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 2,
+	"distrito": 2,
+	"nombre": "MANSION"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 2,
+	"distrito": 3,
+	"nombre": "SAN ANTONIO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 2,
+	"distrito": 5,
+	"nombre": "SAMARA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 2,
+	"distrito": 6,
+	"nombre": "NOSARA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 3,
+	"distrito": 1,
+	"nombre": "CENTRAL SANTA CRUZ"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 3,
+	"distrito": 2,
+	"nombre": "BOLSON"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 3,
+	"distrito": 4,
+	"nombre": "TEMPATE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 3,
+	"distrito": 5,
+	"nombre": "CARTAGENA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 3,
+	"distrito": 6,
+	"nombre": "CUAJINIQUIL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 3,
+	"distrito": 7,
+	"nombre": "DIRIA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 3,
+	"distrito": 8,
+	"nombre": "CABO VELAS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 4,
+	"distrito": 1,
+	"nombre": "CENTRAL BAGACES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 4,
+	"distrito": 2,
+	"nombre": "FORTUNA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 4,
+	"distrito": 3,
+	"nombre": "MOGOTE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 5,
+	"distrito": 1,
+	"nombre": "FILADELFIA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 5,
+	"distrito": 2,
+	"nombre": "PALMIRA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 5,
+	"distrito": 3,
+	"nombre": "SARDINAL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 5,
+	"distrito": 4,
+	"nombre": "BELEN"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 6,
+	"distrito": 1,
+	"nombre": "CENTRAL CA?AS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 7,
+	"distrito": 2,
+	"nombre": "SIERRA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 7,
+	"distrito": 3,
+	"nombre": "SAN JUAN"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 7,
+	"distrito": 4,
+	"nombre": "COLORADO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 8,
+	"distrito": 1,
+	"nombre": "CENTRAL TILARAN"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 8,
+	"distrito": 2,
+	"nombre": "QUEBRADA GRANDE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 8,
+	"distrito": 3,
+	"nombre": "TRONADORA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 8,
+	"distrito": 4,
+	"nombre": "SANTA ROSA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 8,
+	"distrito": 5,
+	"nombre": "LIBANO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 8,
+	"distrito": 6,
+	"nombre": "TIERRAS MORENAS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 8,
+	"distrito": 7,
+	"nombre": "ARENAL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 9,
+	"distrito": 1,
+	"nombre": "CARMONA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 9,
+	"distrito": 2,
+	"nombre": "SANTA RITA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 9,
+	"distrito": 3,
+	"nombre": "ZAPOTAL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 9,
+	"distrito": 4,
+	"nombre": "SAN PABLO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 9,
+	"distrito": 6,
+	"nombre": "BEJUCO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 10,
+	"distrito": 1,
+	"nombre": "CENTRAL LA CRUZ"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 10,
+	"distrito": 2,
+	"nombre": "SANTA CECILIA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 10,
+	"distrito": 3,
+	"nombre": "LA GARITA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 10,
+	"distrito": 4,
+	"nombre": "SANTA ELENA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 11,
+	"distrito": 1,
+	"nombre": "CENTRAL HOJANCHA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 1,
+	"distrito": 1,
+	"nombre": "CENTRAL PUNTARENAS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 1,
+	"distrito": 2,
+	"nombre": "PITAHAYA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 1,
+	"distrito": 3,
+	"nombre": "CHOMES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 1,
+	"distrito": 4,
+	"nombre": "LEPANTO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 1,
+	"distrito": 6,
+	"nombre": "MANZANILLO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 1,
+	"distrito": 7,
+	"nombre": "GUACIMAL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 1,
+	"distrito": 8,
+	"nombre": "BARRANCA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 1,
+	"distrito": 10,
+	"nombre": "ISLA DEL COCO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 1,
+	"distrito": 11,
+	"nombre": "COBANO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 2,
+	"distrito": 1,
+	"nombre": "ESPIRITU SANTO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 2,
+	"distrito": 2,
+	"nombre": "SAN JUAN GRANDE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 2,
+	"distrito": 3,
+	"nombre": "MACACONA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 2,
+	"distrito": 4,
+	"nombre": "SAN RAFAEL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 2,
+	"distrito": 5,
+	"nombre": "SAN JERONIMO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 3,
+	"distrito": 1,
+	"nombre": "CENTRAL BUENOS AIRES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 3,
+	"distrito": 2,
+	"nombre": "VOLCAN"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 3,
+	"distrito": 3,
+	"nombre": "POTRERO GRANDE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 3,
+	"distrito": 4,
+	"nombre": "BORUCA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 3,
+	"distrito": 5,
+	"nombre": "PILAS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 3,
+	"distrito": 6,
+	"nombre": "COLINAS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 3,
+	"distrito": 7,
+	"nombre": "CHANGUENA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 4,
+	"distrito": 1,
+	"nombre": "MIRAMAR"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 4,
+	"distrito": 2,
+	"nombre": "LA UNION"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 4,
+	"distrito": 3,
+	"nombre": "SAN ISIDRO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 1,
+	"distrito": 1,
+	"nombre": "CENTRAL LIBERIA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 5,
+	"distrito": 2,
+	"nombre": "PALMAR"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 5,
+	"distrito": 3,
+	"nombre": "SIERPE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 5,
+	"distrito": 4,
+	"nombre": "BAHIA BALLENA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 2,
+	"distrito": 2,
+	"nombre": "SANTIAGO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 2,
+	"distrito": 3,
+	"nombre": "OROSI"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 2,
+	"distrito": 4,
+	"nombre": "CACHI"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 3,
+	"distrito": 1,
+	"nombre": "TRES RIOS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 3,
+	"distrito": 2,
+	"nombre": "SAN DIEGO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 3,
+	"distrito": 4,
+	"nombre": "SAN RAFAEL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 3,
+	"distrito": 7,
+	"nombre": "PUENTE DE PIEDRA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 3,
+	"distrito": 8,
+	"nombre": "BOLIVAR"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 4,
+	"distrito": 1,
+	"nombre": "CENTRAL SAN MATEO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 4,
+	"distrito": 2,
+	"nombre": "DESMONTE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 4,
+	"distrito": 3,
+	"nombre": "JESUS MARIA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 5,
+	"distrito": 1,
+	"nombre": "CENTRAL ATENAS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 5,
+	"distrito": 2,
+	"nombre": "JESUS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 5,
+	"distrito": 3,
+	"nombre": "MERCEDES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 5,
+	"distrito": 10,
+	"nombre": "TRES EQUIS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 1,
+	"distrito": 9,
+	"nombre": "MONTEVERDE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 20,
+	"distrito": 6,
+	"nombre": "SAN ANTONIO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 4,
+	"distrito": 4,
+	"nombre": "RIO NARANJO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 6,
+	"distrito": 2,
+	"nombre": "PALMIRA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 6,
+	"distrito": 3,
+	"nombre": "SAN MIGUEL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 6,
+	"distrito": 4,
+	"nombre": "BEBEDERO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 6,
+	"distrito": 5,
+	"nombre": "POROSAL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 3,
+	"distrito": 8,
+	"nombre": "BIOLLEY"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 10,
+	"distrito": 4,
+	"nombre": "LAUREL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 11,
+	"distrito": 2,
+	"nombre": "TARCOLES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 2,
+	"distrito": 7,
+	"nombre": "BELEN DE NOSARITA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 3,
+	"distrito": 9,
+	"nombre": "TAMARINDO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 7,
+	"canton": 3,
+	"distrito": 6,
+	"nombre": "ALEGRIA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 5,
+	"distrito": 5,
+	"nombre": "PIEDRAS BLANCAS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 3,
+	"distrito": 9,
+	"nombre": "LA UNION"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 1,
+	"distrito": 1,
+	"nombre": "CARMEN"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 12,
+	"distrito": 3,
+	"nombre": "PALMICHAL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 12,
+	"distrito": 4,
+	"nombre": "CANGREJAL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 12,
+	"distrito": 5,
+	"nombre": "SABANILLAS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 13,
+	"distrito": 1,
+	"nombre": "SAN JUAN"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 13,
+	"distrito": 2,
+	"nombre": "CINCO ESQUINAS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 13,
+	"distrito": 3,
+	"nombre": "ANSELMO LLORENTE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 13,
+	"distrito": 4,
+	"nombre": "LEON XIII"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 14,
+	"distrito": 1,
+	"nombre": "SAN VICENTE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 14,
+	"distrito": 2,
+	"nombre": "SAN JERONIMO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 14,
+	"distrito": 3,
+	"nombre": "TRINIDAD"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 15,
+	"distrito": 1,
+	"nombre": "SAN PEDRO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 15,
+	"distrito": 2,
+	"nombre": "SABANILLA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 15,
+	"distrito": 3,
+	"nombre": "MERCEDES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 15,
+	"distrito": 4,
+	"nombre": "SAN RAFAEL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 16,
+	"distrito": 1,
+	"nombre": "SAN PABLO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 16,
+	"distrito": 2,
+	"nombre": "SAN PEDRO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 16,
+	"distrito": 3,
+	"nombre": "SAN JUAN DE MATA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 16,
+	"distrito": 4,
+	"nombre": "SAN LUIS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 17,
+	"distrito": 1,
+	"nombre": "SANTA MARIA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 17,
+	"distrito": 2,
+	"nombre": "JARDIN"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 17,
+	"distrito": 3,
+	"nombre": "COPEY"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 18,
+	"distrito": 1,
+	"nombre": "CENTRAL CURRIDABAT"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 18,
+	"distrito": 2,
+	"nombre": "GRANADILLA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 18,
+	"distrito": 3,
+	"nombre": "SANCHEZ"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 18,
+	"distrito": 4,
+	"nombre": "TIRRASES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 19,
+	"distrito": 1,
+	"nombre": "SAN ISIDRO DEL GENERAL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 19,
+	"distrito": 2,
+	"nombre": "GENERAL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 19,
+	"distrito": 3,
+	"nombre": "DANIEL FLORES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 19,
+	"distrito": 4,
+	"nombre": "RIVAS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 19,
+	"distrito": 5,
+	"nombre": "SAN PEDRO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 19,
+	"distrito": 6,
+	"nombre": "PLATANARES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 19,
+	"distrito": 7,
+	"nombre": "PEJIBAYE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 19,
+	"distrito": 8,
+	"nombre": "CAJON"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 19,
+	"distrito": 9,
+	"nombre": "BARU"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 19,
+	"distrito": 10,
+	"nombre": "RIO NUEVO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 19,
+	"distrito": 11,
+	"nombre": "PARAMO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 20,
+	"distrito": 1,
+	"nombre": "SAN PABLO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 20,
+	"distrito": 2,
+	"nombre": "SAN ANDRES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 20,
+	"distrito": 3,
+	"nombre": "LLANO BONITO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 20,
+	"distrito": 4,
+	"nombre": "SAN ISIDRO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 20,
+	"distrito": 5,
+	"nombre": "SANTA CRUZ"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 1,
+	"distrito": 1,
+	"nombre": "CENTRAL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 1,
+	"distrito": 2,
+	"nombre": "SAN JOSE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 1,
+	"distrito": 3,
+	"nombre": "CARRIZAL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 1,
+	"distrito": 4,
+	"nombre": "SAN ANTONIO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 1,
+	"distrito": 5,
+	"nombre": "GUACIMA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 1,
+	"distrito": 6,
+	"nombre": "SAN ISIDRO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 1,
+	"distrito": 7,
+	"nombre": "SABANILLA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 1,
+	"distrito": 8,
+	"nombre": "SAN RAFAEL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 1,
+	"distrito": 9,
+	"nombre": "RIO SEGUNDO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 1,
+	"distrito": 10,
+	"nombre": "DESAMPARADOS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 1,
+	"distrito": 11,
+	"nombre": "TURRUCARES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 1,
+	"distrito": 12,
+	"nombre": "TAMBOR"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 1,
+	"distrito": 13,
+	"nombre": "LA GARITA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 1,
+	"distrito": 14,
+	"nombre": "SARAPIQUI"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 2,
+	"distrito": 1,
+	"nombre": "CENTRAL SAN RAMON"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 2,
+	"distrito": 2,
+	"nombre": "SANTIAGO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 2,
+	"distrito": 3,
+	"nombre": "SAN JUAN"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 2,
+	"distrito": 5,
+	"nombre": "PIEDADES SUR"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 2,
+	"distrito": 6,
+	"nombre": "SAN RAFAEL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 2,
+	"distrito": 7,
+	"nombre": "SAN ISIDRO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 2,
+	"distrito": 8,
+	"nombre": "LOS ANGELES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 2,
+	"distrito": 9,
+	"nombre": "ALFARO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 2,
+	"distrito": 10,
+	"nombre": "VOLIO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 2,
+	"distrito": 11,
+	"nombre": "CONCEPCION"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 2,
+	"distrito": 12,
+	"nombre": "ZAPOTAL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 2,
+	"distrito": 13,
+	"nombre": "PE?AS BLANCAS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 3,
+	"distrito": 2,
+	"nombre": "SAN ISIDRO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 3,
+	"distrito": 3,
+	"nombre": "SAN JOSE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 3,
+	"distrito": 4,
+	"nombre": "SAN ROQUE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 3,
+	"distrito": 5,
+	"nombre": "TACARES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 3,
+	"distrito": 6,
+	"nombre": "RIO CUARTO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 7,
+	"canton": 6,
+	"distrito": 3,
+	"nombre": "POCORA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 7,
+	"canton": 5,
+	"distrito": 3,
+	"nombre": "CARRANDI"
+}, {
+	"codigo_pais": 506,
+	"provincia": 7,
+	"canton": 2,
+	"distrito": 3,
+	"nombre": "RITA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 7,
+	"canton": 3,
+	"distrito": 4,
+	"nombre": "GERMANIA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 3,
+	"distrito": 3,
+	"nombre": "VEINTISIETE DE ABRIL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 3,
+	"distrito": 5,
+	"nombre": "CONCEPCION"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 3,
+	"distrito": 6,
+	"nombre": "DULCE NOMBRE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 3,
+	"distrito": 7,
+	"nombre": "SAN RAMON"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 3,
+	"distrito": 8,
+	"nombre": "RIO AZUL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 4,
+	"distrito": 1,
+	"nombre": "JUAN VI?AS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 4,
+	"distrito": 2,
+	"nombre": "TUCURRIQUE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 4,
+	"distrito": 3,
+	"nombre": "PEJIBAYE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 5,
+	"distrito": 1,
+	"nombre": "TURRIALBA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 5,
+	"distrito": 2,
+	"nombre": "LA SUIZA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 5,
+	"distrito": 3,
+	"nombre": "PERALTA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 5,
+	"distrito": 4,
+	"nombre": "SANTA CRUZ"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 5,
+	"distrito": 5,
+	"nombre": "SANTA TERESITA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 5,
+	"distrito": 6,
+	"nombre": "PAVONES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 5,
+	"distrito": 7,
+	"nombre": "TUIS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 5,
+	"distrito": 8,
+	"nombre": "TAYUTIC"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 5,
+	"distrito": 9,
+	"nombre": "SANTA ROSA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 6,
+	"distrito": 1,
+	"nombre": "PACAYAS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 6,
+	"distrito": 2,
+	"nombre": "CERVANTES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 6,
+	"distrito": 3,
+	"nombre": "CAPELLADES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 7,
+	"distrito": 1,
+	"nombre": "SAN RAFAEL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 7,
+	"distrito": 2,
+	"nombre": "COT"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 7,
+	"distrito": 3,
+	"nombre": "POTRERO CERRADO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 7,
+	"distrito": 4,
+	"nombre": "CIPRESES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 7,
+	"distrito": 5,
+	"nombre": "SANTA ROSA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 8,
+	"distrito": 1,
+	"nombre": "EL TEJAR"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 8,
+	"distrito": 2,
+	"nombre": "SAN ISIDRO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 8,
+	"distrito": 3,
+	"nombre": "TOBOSI"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 8,
+	"distrito": 4,
+	"nombre": "PATIO DE AGUA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 1,
+	"distrito": 1,
+	"nombre": "CENTRAL HEREDIA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 1,
+	"distrito": 2,
+	"nombre": "MERCEDES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 1,
+	"distrito": 3,
+	"nombre": "SAN FRANCISCO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 1,
+	"distrito": 4,
+	"nombre": "ULLOA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 1,
+	"distrito": 5,
+	"nombre": "VARABLANCA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 2,
+	"distrito": 1,
+	"nombre": "CENTRAL BARVA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 2,
+	"distrito": 2,
+	"nombre": "SAN PEDRO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 2,
+	"distrito": 3,
+	"nombre": "SAN PABLO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 2,
+	"distrito": 4,
+	"nombre": "SAN ROQUE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 2,
+	"distrito": 5,
+	"nombre": "SANTA LUCIA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 2,
+	"distrito": 6,
+	"nombre": "SAN JOSE DE LA MONTA?A"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 3,
+	"distrito": 1,
+	"nombre": "CENTRAL SANTO DOMINGO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 3,
+	"distrito": 2,
+	"nombre": "SAN VICENTE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 3,
+	"distrito": 3,
+	"nombre": "SAN MIGUEL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 3,
+	"distrito": 4,
+	"nombre": "PARACITO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 3,
+	"distrito": 5,
+	"nombre": "SANTO TOMAS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 3,
+	"distrito": 6,
+	"nombre": "SANTA ROSA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 3,
+	"distrito": 7,
+	"nombre": "TURES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 3,
+	"distrito": 8,
+	"nombre": "PARA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 4,
+	"distrito": 1,
+	"nombre": "CENTRAL SANTA BARBARA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 4,
+	"distrito": 2,
+	"nombre": "SAN PEDRO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 4,
+	"distrito": 3,
+	"nombre": "SAN JUAN"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 4,
+	"distrito": 4,
+	"nombre": "JESUS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 4,
+	"distrito": 5,
+	"nombre": "SANTO DOMINGO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 4,
+	"distrito": 6,
+	"nombre": "PURABA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 5,
+	"distrito": 1,
+	"nombre": "CENTRAL SAN RAFAEL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 5,
+	"distrito": 2,
+	"nombre": "SAN JOSECITO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 5,
+	"distrito": 4,
+	"nombre": "LOS ANGELES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 5,
+	"distrito": 5,
+	"nombre": "CONCEPCION"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 6,
+	"distrito": 1,
+	"nombre": "CENTRAL SAN ISIDRO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 6,
+	"distrito": 2,
+	"nombre": "SAN JOSE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 6,
+	"distrito": 3,
+	"nombre": "CONCEPCION"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 7,
+	"distrito": 1,
+	"nombre": "SAN ANTONIO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 7,
+	"distrito": 2,
+	"nombre": "LA RIBERA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 7,
+	"distrito": 3,
+	"nombre": "ASUNCION"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 8,
+	"distrito": 1,
+	"nombre": "SAN JOAQUIN"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 8,
+	"distrito": 2,
+	"nombre": "BARRANTES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 8,
+	"distrito": 3,
+	"nombre": "LLORENTE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 9,
+	"distrito": 1,
+	"nombre": "CENTRAL SAN PABLO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 10,
+	"distrito": 1,
+	"nombre": "PUERTO VIEJO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 10,
+	"distrito": 2,
+	"nombre": "LA VIRGEN"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 10,
+	"distrito": 3,
+	"nombre": "HORQUETAS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 5,
+	"distrito": 5,
+	"nombre": "CONCEPCION"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 5,
+	"distrito": 6,
+	"nombre": "SAN JOSE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 5,
+	"distrito": 7,
+	"nombre": "SANTA EULALIA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 6,
+	"distrito": 1,
+	"nombre": "CENTRAL NARANJO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 6,
+	"distrito": 2,
+	"nombre": "SAN MIGUEL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 6,
+	"distrito": 3,
+	"nombre": "SAN JOSE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 6,
+	"distrito": 4,
+	"nombre": "CIRRI SUR"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 6,
+	"distrito": 5,
+	"nombre": "SAN JERONIMO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 6,
+	"distrito": 6,
+	"nombre": "SAN JUAN"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 7,
+	"distrito": 1,
+	"nombre": "CENTRAL PALMARES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 7,
+	"distrito": 2,
+	"nombre": "ZARAGOZA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 7,
+	"distrito": 3,
+	"nombre": "BUENOS AIRES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 7,
+	"distrito": 4,
+	"nombre": "SANTIAGO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 7,
+	"distrito": 5,
+	"nombre": "CANDELARIA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 7,
+	"distrito": 6,
+	"nombre": "ESQUIPULAS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 7,
+	"distrito": 7,
+	"nombre": "GRANJA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 8,
+	"distrito": 2,
+	"nombre": "SAN JUAN"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 8,
+	"distrito": 3,
+	"nombre": "SAN RAFAEL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 8,
+	"distrito": 4,
+	"nombre": "CARRILLOS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 8,
+	"distrito": 5,
+	"nombre": "SABANA REDONDA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 9,
+	"distrito": 1,
+	"nombre": "CENTRAL OROTINA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 9,
+	"distrito": 2,
+	"nombre": "MASTATE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 9,
+	"distrito": 3,
+	"nombre": "HACIENDA VIEJA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 9,
+	"distrito": 4,
+	"nombre": "COYOLAR"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 9,
+	"distrito": 5,
+	"nombre": "CEIBA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 10,
+	"distrito": 1,
+	"nombre": "QUESADA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 10,
+	"distrito": 2,
+	"nombre": "FLORENCIA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 10,
+	"distrito": 4,
+	"nombre": "AGUAS ZARCAS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 10,
+	"distrito": 5,
+	"nombre": "VENECIA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 10,
+	"distrito": 6,
+	"nombre": "PITAL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 10,
+	"distrito": 7,
+	"nombre": "FORTUNA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 10,
+	"distrito": 8,
+	"nombre": "TIGRA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 10,
+	"distrito": 9,
+	"nombre": "PALMERA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 1,
+	"distrito": 8,
+	"nombre": "MATA REDONDA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 1,
+	"distrito": 9,
+	"nombre": "PAVAS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 1,
+	"distrito": 10,
+	"nombre": "HATILLO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 1,
+	"distrito": 11,
+	"nombre": "SAN SEBASTIAN"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 2,
+	"distrito": 2,
+	"nombre": "SAN ANTONIO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 2,
+	"distrito": 3,
+	"nombre": "SAN RAFAEL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 2,
+	"distrito": 1,
+	"nombre": "CENTRAL ESCAZU"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 3,
+	"distrito": 1,
+	"nombre": "CENTRAL DESAMPARADOS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 3,
+	"distrito": 2,
+	"nombre": "SAN MIGUEL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 3,
+	"distrito": 3,
+	"nombre": "SAN JUAN DE DIOS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 3,
+	"distrito": 4,
+	"nombre": "SAN RAFAEL ARRIBA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 3,
+	"distrito": 5,
+	"nombre": "SAN ANTONIO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 3,
+	"distrito": 6,
+	"nombre": "FRAILES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 3,
+	"distrito": 7,
+	"nombre": "PATARRA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 3,
+	"distrito": 8,
+	"nombre": "SAN CRISTOBAL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 3,
+	"distrito": 9,
+	"nombre": "ROSARIO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 3,
+	"distrito": 10,
+	"nombre": "DAMAS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 3,
+	"distrito": 11,
+	"nombre": "SAN RAFAEL ABAJO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 3,
+	"distrito": 12,
+	"nombre": "GRAVILIAS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 4,
+	"distrito": 1,
+	"nombre": "SANTIAGO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 4,
+	"distrito": 2,
+	"nombre": "MERCEDES SUR"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 4,
+	"distrito": 3,
+	"nombre": "BARBACOAS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 4,
+	"distrito": 4,
+	"nombre": "GRIFO ALTO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 4,
+	"distrito": 5,
+	"nombre": "SAN RAFAEL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 4,
+	"distrito": 6,
+	"nombre": "CANDELARITA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 4,
+	"distrito": 7,
+	"nombre": "DESAMPARADITOS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 4,
+	"distrito": 8,
+	"nombre": "SAN ANTONIO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 4,
+	"distrito": 9,
+	"nombre": "CHIRES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 5,
+	"distrito": 1,
+	"nombre": "SAN MARCOS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 5,
+	"distrito": 2,
+	"nombre": "SAN LORENZO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 5,
+	"distrito": 3,
+	"nombre": "SAN CARLOS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 6,
+	"distrito": 1,
+	"nombre": "CENTRAL ASERRI"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 6,
+	"distrito": 2,
+	"nombre": "TARBACA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 6,
+	"distrito": 3,
+	"nombre": "VUELTA DE JORCO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 6,
+	"distrito": 4,
+	"nombre": "SAN GABRIEL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 6,
+	"distrito": 5,
+	"nombre": "LEGUA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 6,
+	"distrito": 6,
+	"nombre": "MONTERREY"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 7,
+	"distrito": 1,
+	"nombre": "COLON"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 7,
+	"distrito": 2,
+	"nombre": "GUAYABO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 7,
+	"distrito": 3,
+	"nombre": "TABARCIA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 7,
+	"distrito": 4,
+	"nombre": "PIEDRAS NEGRAS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 7,
+	"distrito": 5,
+	"nombre": "PICAGRES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 8,
+	"distrito": 1,
+	"nombre": "GUADALUPE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 8,
+	"distrito": 2,
+	"nombre": "SAN FRANCISCO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 8,
+	"distrito": 3,
+	"nombre": "CALLE BLANCOS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 8,
+	"distrito": 4,
+	"nombre": "MATA DE PLATANO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 8,
+	"distrito": 5,
+	"nombre": "IPIS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 8,
+	"distrito": 6,
+	"nombre": "RANCHO REDONDO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 8,
+	"distrito": 7,
+	"nombre": "PURRAL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 9,
+	"distrito": 1,
+	"nombre": "CENTRAL SANTA ANA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 9,
+	"distrito": 2,
+	"nombre": "SALITRAL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 3,
+	"distrito": 13,
+	"nombre": "LOS GUIDOS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 6,
+	"distrito": 7,
+	"nombre": "SALITRILLOS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 13,
+	"distrito": 5,
+	"nombre": "COLIMA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 5,
+	"distrito": 8,
+	"nombre": "ESCOBAL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 16,
+	"distrito": 5,
+	"nombre": "CARARA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 11,
+	"distrito": 7,
+	"nombre": "BRISAS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 2,
+	"distrito": 5,
+	"nombre": "LLANOS DE SANTA LUCIA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 5,
+	"distrito": 11,
+	"nombre": "LA ISABEL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 5,
+	"distrito": 12,
+	"nombre": "EL CHIRRIPO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 6,
+	"distrito": 4,
+	"nombre": "SAN FRANCISCO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 10,
+	"distrito": 4,
+	"nombre": "LLANURAS DE GASPAR"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 10,
+	"distrito": 5,
+	"nombre": "CURENA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 11,
+	"distrito": 2,
+	"nombre": "MONTE ROMO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 11,
+	"distrito": 3,
+	"nombre": "PUERTO CARRILLO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 11,
+	"distrito": 4,
+	"nombre": "HUACAS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 1,
+	"distrito": 13,
+	"nombre": "CHIRA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 1,
+	"distrito": 14,
+	"nombre": "ACAPULCO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 1,
+	"distrito": 15,
+	"nombre": "EL ROBLE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 1,
+	"distrito": 16,
+	"nombre": "ARANCIBIA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 3,
+	"distrito": 9,
+	"nombre": "BRUNKA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 7,
+	"canton": 4,
+	"distrito": 4,
+	"nombre": "TELIRE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 2,
+	"distrito": 4,
+	"nombre": "GUACHIPELIN"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 5,
+	"distrito": 3,
+	"nombre": "SANTIAGO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 2,
+	"distrito": 1,
+	"nombre": "CENTRAL PARAISO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 6,
+	"distrito": 7,
+	"nombre": "ROSARIO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 8,
+	"distrito": 1,
+	"nombre": "SAN PEDRO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 10,
+	"distrito": 3,
+	"nombre": "BUENAVISTA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 2,
+	"distrito": 4,
+	"nombre": "QUEBRADA HONDA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 7,
+	"distrito": 1,
+	"nombre": "JUNTAS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 9,
+	"distrito": 5,
+	"nombre": "PORVENIR"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 1,
+	"distrito": 12,
+	"nombre": "CHACARITA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 5,
+	"distrito": 1,
+	"nombre": "CORTES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 3,
+	"distrito": 3,
+	"nombre": "SAN JUAN"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 2,
+	"distrito": 4,
+	"nombre": "PIEDADES NORTE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 3,
+	"distrito": 1,
+	"nombre": "CENTRAL GRECIA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 1,
+	"distrito": 5,
+	"nombre": "PAQUERA"
+},  {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 10,
+	"distrito": 10,
+	"nombre": "VENADO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 10,
+	"distrito": 11,
+	"nombre": "CUTRIS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 10,
+	"distrito": 12,
+	"nombre": "MONTERREY"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 10,
+	"distrito": 13,
+	"nombre": "POCOSOL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 11,
+	"distrito": 1,
+	"nombre": "ZARCERO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 11,
+	"distrito": 2,
+	"nombre": "LAGUNA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 11,
+	"distrito": 3,
+	"nombre": "TAPEZCO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 11,
+	"distrito": 4,
+	"nombre": "GUADALUPE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 11,
+	"distrito": 5,
+	"nombre": "PALMIRA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 11,
+	"distrito": 6,
+	"nombre": "ZAPOTE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 12,
+	"distrito": 1,
+	"nombre": "SARCHI NORTE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 12,
+	"distrito": 2,
+	"nombre": "SARCHI SUR"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 12,
+	"distrito": 3,
+	"nombre": "TORO AMARILLO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 12,
+	"distrito": 4,
+	"nombre": "SAN PEDRO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 12,
+	"distrito": 5,
+	"nombre": "RODRIGUEZ"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 13,
+	"distrito": 1,
+	"nombre": "CENTRAL UPALA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 13,
+	"distrito": 2,
+	"nombre": "AGUAS CLARAS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 13,
+	"distrito": 3,
+	"nombre": "SAN JOSE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 13,
+	"distrito": 4,
+	"nombre": "BIJAGUA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 13,
+	"distrito": 5,
+	"nombre": "DELICIAS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 13,
+	"distrito": 6,
+	"nombre": "DOS RIOS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 13,
+	"distrito": 7,
+	"nombre": "YOLILLAL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 14,
+	"distrito": 1,
+	"nombre": "CENTRAL LOS CHILES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 14,
+	"distrito": 2,
+	"nombre": "CA?O NEGRO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 14,
+	"distrito": 3,
+	"nombre": "EL AMPARO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 14,
+	"distrito": 4,
+	"nombre": "SAN JORGE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 15,
+	"distrito": 1,
+	"nombre": "SAN RAFAEL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 15,
+	"distrito": 2,
+	"nombre": "BUENAVISTA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 15,
+	"distrito": 3,
+	"nombre": "COTE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 1,
+	"distrito": 1,
+	"nombre": "ORIENTAL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 1,
+	"distrito": 2,
+	"nombre": "OCCIDENTAL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 1,
+	"distrito": 3,
+	"nombre": "CARMEN"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 1,
+	"distrito": 4,
+	"nombre": "SAN NICOLAS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 1,
+	"distrito": 5,
+	"nombre": "SAN FRANCISCO (AGUA CALIENTE)"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 1,
+	"distrito": 6,
+	"nombre": "GUADALUPE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 1,
+	"distrito": 7,
+	"nombre": "CORRALILLO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 1,
+	"distrito": 8,
+	"nombre": "TIERRA BLANCA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 1,
+	"distrito": 9,
+	"nombre": "DULCE NOMBRE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 1,
+	"distrito": 10,
+	"nombre": "LLANO GRANDE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 1,
+	"distrito": 11,
+	"nombre": "QUEBRADILLA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 5,
+	"distrito": 4,
+	"nombre": "SAN ISIDRO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 1,
+	"distrito": 2,
+	"nombre": "MERCED"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 1,
+	"distrito": 3,
+	"nombre": "HOSPITAL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 1,
+	"distrito": 4,
+	"nombre": "CATEDRAL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 1,
+	"distrito": 5,
+	"nombre": "ZAPOTE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 1,
+	"distrito": 6,
+	"nombre": "SAN FRANCISCO DE DOS RIOS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 1,
+	"distrito": 7,
+	"nombre": "LA URUCA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 8,
+	"distrito": 5,
+	"nombre": "BARRIO NUEVO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 15,
+	"distrito": 4,
+	"nombre": "KATIRA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 13,
+	"distrito": 8,
+	"nombre": "CANALETA"
+}]

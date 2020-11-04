@@ -1,0 +1,249 @@
+.pointer{
+    cursor: pointer;
+}
+.Container_versionado{
+    width: 100%;
+    background-color: white !important;
+    float: left;
+    padding: 5px;
+}
+#divArbol{
+  height: 500px;
+  width: 130%;
+  overflow-y: scroll;
+  background-color:#f8f8f8 !important;
+  border: 1px solid #dadada;
+  margin: 3px !important;
+  
+}
+
+.menu_arbol * { list-style:none;}
+
+.menu_arbol li a{text-decoration:none;}
+.menu_arbol li a:before{ /content:"\025b8";/ color:#ddd; margin-right:4px;}
+.menu_arbol input[name="list"] {
+	position: absolute;
+	left: -1000em;	}
+	
+.menu_arbol label:before{ content:"\025b8"; margin-right:4px;}
+.menu_arbol input:checked ~ label:before{ content:"\025be";}
+/.menu_arbol .interior{display: none;}/
+/.menu_arbol input:checked ~ ul{display:block;}/
+
+.menu_arbol .interior label:before{ content:"\025b8"; margin-right:4px;}
+
+.checedItem label:before{ content:"\025be"}
+
+.checedItem2 label:before{ content:"\025be" !important;}
+
+.menu_arbol{
+	float:left;
+	width:20%;
+	
+	
+}
+
+.interior p:hover{
+	    background-color: #e0dbdb;
+          
+
+}
+.nivel_1_arbol li:hover{
+	    
+ background-color: #e0dbdb;
+}
+
+.nivel_1_arbol:hover{
+     background-color: #e0dbdb;
+}
+.menu_arbol h1{
+	margin-left:5%;
+	margin-top:0px;
+	margin-bottom:5px;
+	color:#797171;
+	font-size:20px;
+            width: 100%;
+    background-color: white !important;
+    float: left;
+    padding: 5px;
+	}
+.table_childrens_tree h1{
+	margin-left:10%;
+	margin-top:0px;
+	margin-bottom:5px;
+	color:#797171;
+	font-size:20px;
+}
+
+.table_childrens_tree{
+	float:left;
+	width: 70%;
+        margin-left: 10%;
+}
+
+.nivel_1_arbol {
+background-color:#f3f3f3 !important;
+border: 1px solid #eee;
+width:100%;
+padding:0px !important;
+margin: 10px; 
+
+   
+}
+
+.menu_arbol ul li label{
+        font-family: Arimo,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 13px;
+        margin-left: 30px;
+        color: #757575;
+}
+.table_childrens_tree tbody tr:nth-child(even){
+background-color: #f3f3f3;
+	
+}
+.table_childrens_tree thead {
+background-color:#f3f3f3;
+	
+}
+
+.table_childrens_tree table {
+	border: 1px solid #eee;
+	border-color: #eeeeee;
+	width: 95%;
+    margin-bottom: 18px;
+
+	    border-collapse: collapse;
+
+}
+
+.table_childrens_tree table tr  td{
+	    border: 1px solid #eee;
+		padding:5px;
+		width:25%;
+		color: #757575;
+		    border: 1px solid #dadada;
+}
+
+.table_childrens_tree table tr  th{
+	    border: 1px solid #eee;
+		text-align:left;
+		padding:5px;
+		width:25%;
+color:#757575;
+    border: 1px solid #dadada;
+		}
+		
+
+.nivel_1_arbol{
+	margin: 2px;
+	
+}
+.interior{
+	background-color:#f9f9f9;
+}
+
+.table_childrens_tree table tbody tr:hover{
+	background-color:#d8d8d8;
+}
+
+@media (max-width: 570px) { 
+
+.table_childrens_tree{
+	float:none;
+
+	width: 100%;
+	
+}
+.menu_arbol {
+		width: 100%;
+		margin-bottom:10px;
+}
+
+.table_childrens_tree{
+	
+	float:none;
+	width: 100%;
+}
+.table_childrens_tree table {
+	width:100%;
+	margin-left:0px;
+}
+}
+#search_bd{
+	background-color: #f3f3f3;
+	margin-bottom:10px;
+	border: 1px solid #dadada;
+        width: 130%;
+}
+
+.button_cust_search {
+	background-color:white !important;
+	margin-left:2%;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom:10px;
+  margin-top:5px;
+  width: 90%;
+  height: 30px;
+  cursor: pointer;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0 20px;
+  overflow: hidden;
+  border: none;
+  -webkit-border-radius: 21px;
+  border-radius: 21px;
+  color:#797171;
+  text-decoration: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  -webkit-box-shadow: 1px 1px 2px 0 rgba(0,0,0,0.5) inset;
+  box-shadow: 1px 1px 2px 0 rgba(0,0,0,0.5) inset;
+  -webkit-transition: all 502ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+  -moz-transition: all 502ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+  -o-transition: all 502ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+  transition: all 502ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACCUlEQVRYR9VWzVnbQBB978shuYUOgAqwK7BLgAqgA3ZvVk6cInPapYIkFcRUEKgAuQLsDpKjD2H4RpZAtvWzUvgssjdbu/vevHkzs0TPiz3j4/8mMDHmAsCIwADkIFVTJBEgEXJ27dxtk8KdFIiMORXAkTyqAxCRBQEbez+r2teawMRaT+Ayu3AJEf1999X7RP/7YsxAgDFIA+AwU8XH3tsyEq0IbICLaGS+ToHIGAPSpZkBbqbOKamNFUxAZQf5U09TZJhH3JTjVBHyIVPibDsd4QSsXaSSBkS+TSpXQj0x9f64+D2IgLqd5DcAy9i5WuNVKRK9BrChQhCByNrvAM67RJ8TKvjhR+yclm+6gghMrE0InLTJ/bYSL14QSWLvh60IRNaKHoidCyJck4ade4IufA8E0gp4ixQIMJ86t27boR7o34RZGZbVcVMjeqmCfylDvaRQx40tuKoRlfWRIBOmBPpuxVfGHKyAR5AHSugJMNfO3dSl4M2GUQb+Sx8dAvwh8FmB1RNC+g8i98Vx/JccUcTk74WqSRhUBVvg808i49V63usoXs/76qXvBdP5QVIGfuX97xwvG1JjKKGMjNY5gQQiszrgxj7QBB5afk37SqtgX+ClHtgn+A6BfYPvEMibjRpJ3V40XFMuu37f8YCS+Ajc7QM8qA90jSz0XPAsCL2w7b7eCTwDmbtLMLWgMuQAAAAASUVORK5CYII=') no-repeat scroll 7px 7px;
+	padding-left:30px;
+  background-position: 99% 50%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: 24px auto;
+  background-size: 24px auto;
+}
+
+.button_cust_search:hover {
+  
+ 
+  -webkit-transition: all 500ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+  -moz-transition: all 500ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+  -o-transition: all 500ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+  transition: all 500ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+}
+
+.button_cust_search:focus {
+  width: 95%;
+  cursor: default;
+  padding: -13px 20px 0;
+ 
+  -webkit-transition: all 601ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+  -moz-transition: all 601ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+  -o-transition: all 601ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+  transition: all 601ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+}
+
+.menu_arbol p{
+    
+        font-family: Arimo,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    text-transform: lowercase;
+        margin-left: 30px;
+        color: #757575;
+ 
+}

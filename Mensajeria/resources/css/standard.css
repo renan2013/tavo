@@ -1,0 +1,32 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20-mar-2017, 11:10:05
+    Author     : jesuscastillo
+*/
+.ErrorMsg{
+    color: red;
+}
+
+
+
+
+.SuccessMsg{
+    color: green;
+}
+
+.form-control{
+    width: 50%;
+}
+
+.filtersForm{
+     width: 100%;
+}
+
+.pointer{
+    cursor: pointer;
+}
+

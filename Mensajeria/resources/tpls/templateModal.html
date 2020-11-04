@@ -1,0 +1,35 @@
+<link href="../css/bootstrap.min.css" rel="stylesheet" />
+<div class="row">
+  <div ng-show="botones.titulo != undefined">   
+    <div class="col-md-6">
+        <h2>{{botones.titulo}}</h2>
+    </div>
+    
+    <div class="col-md-6">
+     <div id="modalClose" class="fa-close pointer" style="float:right;margin-top:-2%" ng-click="close()"></div>
+    </div>
+  </div>
+    
+    <div ng-show="botones.titulo == undefined"> 
+        <div id="modalClose" class="glyphicon glyphicon-remove pointer" style="float:right;margin-top:-2%" ng-click="close()"></div>
+    </div>
+    
+    
+</div>
+
+<div style="margin-top:1%">
+
+    <div style="/*overflow-y: scroll; height : 350px*/" id="includeAngular" ng-if="controller && template" class="row" ng-include="template" dynamic-controller="controller"></div>
+
+    <div style="/*overflow-y: scroll; height : 350px" id="includeAngular*/" ng-if="!controller && template" class="row" ng-include="template"></div>
+
+    
+    <iframe ng-if="externalWeb" id="externalFrame" src="{{externalWeb}}" frameborder="0" width="{{botones.ancho_external}}" height="{{botones.largo_external}}"></iframe>
+
+</div>
+
+<div class="row" style="margin-top:-1%;">
+    <div class=" col-md-4 "><input type="button " ng-show="botones.aceptar " class="btn btn-success " value="Aceptar " ng-click="acept() "></div>
+    <div class="col-md-4 "></div>
+    <div class="col-md-4 "><input type="button " ng-show="botones.cancelar " class="btn btn-gray" value="Cancelar " ng-click="cancel() "></div>
+</div>

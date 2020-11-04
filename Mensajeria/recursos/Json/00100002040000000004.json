@@ -1,0 +1,128 @@
+{
+    "batch_Id": 0,
+    "caja_id": 2,
+    "clave": "50601091800310170324300100002040000000004100014079",
+    "codigoMoneda": "CRC",
+    "comentarioFactura": "Sin Comentario",
+    "condicionVenta": "01",
+    "detalle": [
+        {
+            "bonificacion": false,
+            "cantidad": 1,
+            "codigo": [
+                {
+                    "codigo": "4PK1180",
+                    "codigoTipo": "01"
+                }
+            ],
+            "comentario": "",
+            "detalle": "FAJA",
+            "exento": false,
+            "impuesto": [
+                {
+                    "codigo": "01",
+                    "exoFechaEmision": "1900-01-01T00:00:00",
+                    "exoMontoImpuesto": 0,
+                    "exoNombreInstitucion": "",
+                    "exoNumeroDocumento": "",
+                    "exoPorcentajeCompra": 0,
+                    "exoTipoDocumento": "00",
+                    "monto": 575.22,
+                    "tarifa": 13
+                }
+            ],
+            "montoDescuento": 0,
+            "montoTotal": 4424.78,
+            "montoTotalLinea": 5000,
+            "naturalezaDescuento": "",
+            "numeroLinea": 1,
+            "precioUnitario": 4424.78,
+            "servicio": false,
+            "subtotal": 4424.78,
+            "unidadMedida": "unid",
+            "unidadMedidaComercial": "Unidad"
+        },
+        {
+            "bonificacion": false,
+            "cantidad": 1,
+            "codigo": [
+                {
+                    "codigo": "H09326",
+                    "codigoTipo": "01"
+                }
+            ],
+            "comentario": "",
+            "detalle": "RELAY LUCES 4P HY ACCENT",
+            "exento": false,
+            "impuesto": [
+                {
+                    "codigo": "01",
+                    "exoFechaEmision": "1900-01-01T00:00:00",
+                    "exoMontoImpuesto": 0,
+                    "exoNombreInstitucion": "",
+                    "exoNumeroDocumento": "",
+                    "exoPorcentajeCompra": 0,
+                    "exoTipoDocumento": "00",
+                    "monto": 345.13,
+                    "tarifa": 13
+                }
+            ],
+            "montoDescuento": 0,
+            "montoTotal": 2654.87,
+            "montoTotalLinea": 3000,
+            "naturalezaDescuento": "",
+            "numeroLinea": 2,
+            "precioUnitario": 2654.87,
+            "servicio": false,
+            "subtotal": 2654.87,
+            "unidadMedida": "unid",
+            "unidadMedidaComercial": "Unidad"
+        "},
+    ],
+    "documento": "",
+    "emisor_id": 30002,
+    "fechaEmision": "2018-09-10T09:31:06",
+    "fechaEmisionSTR": "",
+    "leyendaResolucion": "Autorizado mediante resolucion No. DGT-R-48-2016 del 7-10-2016,
+    "medioPago": [
+        {
+            "medioPago": "01"
+        }
+    ],
+    "numeroConsecutivo": "00100002040000000004",
+    "otroContenido": "",
+    "otroTexto": "",
+    "plazoCredito": "0",
+    "receptorBarrio": "01",
+    "receptorCanton": "01",
+    "receptorCorreoElectronico": "",
+    "receptorDistrito": "01",
+    "receptorFaxCodigoPais": 506,
+    "receptorFaxNumTelefono": 0,
+    "receptorIdentificacionExtranjero": "",
+    "receptorIdentificacionNumero": "",
+    "receptorIdentificacionTipo": "",
+    "receptorNombre": "Contado",
+    "receptorNombreComercial": "Contado",
+    "receptorOtrasSenas": "No Registra",
+    "receptorProvincia": "01",
+    "receptorTelefonoCodigoPais": 506,
+    "receptorTelefonoNumTelefono": 0,
+    "referencia": [],
+    "situacion": "1",
+    "suc_id": 1,
+    "tipoCambio": 1,
+    "tipoDoc": "04",
+    "token": "0",
+    "totalComprobante": 0,
+    "totalDescuentos": 0,
+    "totalExento": 0,
+    "totalGravado": 0,
+    "totalImpuesto": 0,
+    "totalMercanciasExentas": 0,
+    "totalMercanciasGravadas": 0,
+    "totalServExentos": 0,
+    "totalServGrabados": 0,
+    "totalVenta": 0,
+    "totalVentaNeta": 0
+}

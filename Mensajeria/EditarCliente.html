@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html class="loading" lang="es" data-textdirection="ltr">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+  <title>MT - Cliente</title>
+  <link rel="apple-touch-icon" href="recursos/images/ico/truck-icon-120.png">
+  <link rel="shortcut icon" type="image/x-icon" href="recursos/images/ico/tracking.png">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i%7CMuli:300,400,500,700"
+    rel="stylesheet">
+  <!-- BEGIN VENDOR CSS-->
+  <link rel="stylesheet" type="text/css" href="recursos/css/vendors.css">
+  <!-- END VENDOR CSS-->
+  <!-- BEGIN ROBUST CSS-->
+  <link rel="stylesheet" type="text/css" href="recursos/css/app.css">
+  <!-- END ROBUST CSS-->
+  <!-- BEGIN Page Level CSS-->
+  <link rel="stylesheet" type="text/css" href="recursos/css/core/menu/menu-types/vertical-menu.css">
+  <link rel="stylesheet" type="text/css" href="recursos/css/core/colors/palette-gradient.css">
+  <!-- END Page Level CSS-->
+  <!-- BEGIN Custom CSS-->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- END Custom CSS-->
+  <!-- BEGIN VUE.JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-resource/1.5.1/vue-resource.min.js"></script>
+  <script src="https://unpkg.com/lodash@4.13.1/lodash.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vuex/3.1.1/vuex.js"></script>
+  <!-- END VUE.JS-->
+
+</head>
+
+<body class="vertical-layout vertical-menu 2-columns   menu-expanded fixed-navbar" data-open="click"
+  data-menu="vertical-menu" data-col="2-columns">
+
+  <!-- fixed-top-->
+  <nav class="header-navbar navbar-expand-md navbar navbar-with-menu fixed-top navbar-semi-dark navbar-shadow">
+    <div class="navbar-wrapper">
+      <div class="navbar-header">
+        <ul class="nav navbar-nav flex-row">
+          <li class="nav-item mobile-menu d-md-none mr-auto"><a class="nav-link nav-menu-main menu-toggle hidden-xs"
+              href="#"><i class="ft-menu font-large-1"></i></a></li>
+          <li class="nav-item"><a class="navbar-brand" href="../../../html/ltr/vertical-menu-template/index.html"><img
+                class="brand-logo" alt="robust admin logo" src="recursos/images/ico/tracking.png">
+              <h3 class="brand-text">Nombre Web</h3>
+            </a></li>
+          <li class="nav-item d-md-none"><a class="nav-link open-navbar-container" data-toggle="collapse"
+              data-target="#navbar-mobile"><i class="fa fa-ellipsis-v"></i></a></li>
+        </ul>
+      </div>
+      <div class="navbar-container content">
+        <div class="collapse navbar-collapse" id="navbar-mobile">
+          <ul class="nav navbar-nav mr-auto float-left">
+            <li class="nav-item d-none d-md-block"><a class="nav-link nav-menu-main menu-toggle hidden-xs" href="#"><i
+                  class="ft-menu"> </i></a></li>
+          </ul>
+          <ul class="nav navbar-nav float-right">
+            <li class="dropdown dropdown-user nav-item"><a class="dropdown-toggle nav-link dropdown-user-link" href="#"
+                data-toggle="dropdown">
+                <span class="avatar avatar-online"><br><span class="user-name">Usuario 1</span></a>
+              <div class="dropdown-menu dropdown-menu-right">
+                <a class="dropdown-item" href="login-with-bg-image.html"><i class="ft-power">
+                  </i> Cerrar Sesión</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- fixed-menu-->
+  <div class="main-menu menu-fixed menu-dark menu-accordion    menu-shadow " data-scroll-to-active="true">
+      <div class="main-menu-content">
+        <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
+          <li class=" nav-item"><a href="index.html"><i class="icon-home"></i><span class="menu-title"
+                data-i18n="nav.dash.main">Inicio</span></a>
+          </li>
+          <li class=" nav-item"><a href="#"><i class="icon-briefcase"></i><span class="menu-title"
+                data-i18n="nav.project.main">Control Movimientos Editar Cliente</span></a>
+            <ul class="menu-content">
+              <li><a class="menu-item" href="AgregarMovimientos.html" data-i18n="nav.project.project_summary">Agregar
+                  Movimiento</a>
+              </li>
+              <li><a class="menu-item" href="ConsultaControlDepositosMensajeros.html"
+                  data-i18n="nav.project.project_tasks">Consulta Movimientos</a>
+              </li>
+            </ul>
+          </li>
+  
+          <li class=" nav-item"><a href="#"><i class="icon-doc"></i><span class="menu-title"
+                data-i18n="nav.invoice.main">Cobros</span></a>
+            <ul class="menu-content">
+              <li class="active"><a class="menu-item" href="AgregarCobro.html"
+                  data-i18n="nav.invoice.invoice_summary">Agregar Cobro</a>
+              </li>
+              <li><a class="menu-item" href="invoice-template.html" data-i18n="nav.invoice.invoice_template">X</a>
+              </li>
+            </ul>
+          </li>
+          <li class=" nav-item"><a href="AgregarMensajero.html"><i class="ft-compass"></i><span class="menu-title"
+                data-i18n="nav.page-pricing">Mensajeros</span></a>
+            <ul class="menu-content">
+              <li><a class="menu-item" href="AgregarMensajero.html" data-i18n="nav.users.user_cards">Nuevo
+                  Mensajero</a>
+              </li>
+              <li><a class="menu-item" href="ListaMensajeros.html" data-i18n="nav.users.users_contacts">Lista
+                  Mensajeros</a>
+              </li>
+            </ul>
+          </li>
+          <li class=" nav-item"><a href="#"><i class="icon-user"></i><span class="menu-title"
+                data-i18n="nav.users.main">Clientes</span></a>
+            <ul class="menu-content">
+              <li><a class="menu-item" href="AgregarCliente.html" data-i18n="nav.users.user_cards">Nuevo
+                  Cliente</a>
+              </li>
+              <li><a class="menu-item" href="ListaClientes.html" data-i18n="nav.users.users_contacts">Lista Clientes</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  <!-- ////////////////////////////////////////////////////////////////////////////-->
+  <!-- Titulo y breadcrumb -->
+
+  <!-- Titulo y breadcrumb -->
+  <div class="app-content content" id="editCliente">
+    <div class="content-wrapper">
+      <div class="content-header row">
+        <div class="content-header-left col-md-8 col-12 mb-2 breadcrumb-new">
+          <h3 class="content-header-title mb-0 d-inline-block">Editar Cliente</h3>
+          <div class="row breadcrumbs-top d-inline-block">
+            <div class="breadcrumb-wrapper col-12">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Inicio</a>
+                </li>
+                <li class="breadcrumb-item"><a href="#">Clientes</a>
+                  <li class="breadcrumb-item"><a href="ListaClientes.html">Lista Clientes</a>
+                  </li>
+                </li>
+                <li class="breadcrumb-item active">Modificar Cliente</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ////////////////////////////////////////////////////////////////////////////-->
+
+      <!-- Basic form layout section start -->
+      <div class="content-body">
+        <section id="basic-form-layouts">
+          <div class="row match-height">
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-body">
+                  <form class="form">
+                   
+                    <div class="form-body">
+
+                      <!-- Sección Datos Cliente -->
+                      <h4 class="form-section"><i class="ft-user"></i>Datos Personales</h4>
+                    <!-- Fila 1 -->
+                    <div class="row">
+                      <div class="col-md-2">
+                        <div class="form-group ">
+                          <label>Cod Cliente</label>
+                          <input type="text" v-model="listaCliente.COD_CLIENTE" class="form-control">
+                        </div>
+                      </div>
+                      <div class="col-md-2">
+                        <div class="form-group">
+                          <label for="tipoCliente">Tipo Identificación</label>
+                          <select id="tipoCliente" v-model="listaClienteEdit.TIP_IDENTIFICACION"
+                            class="form-control input-group-sm">
+                            <option value="01">Cédula Física</option>
+                            <option value="02">Cédula Jurídica</option>
+                            <option value="03">DIMEX</option>
+                            <option value="04">NITE</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="form-group">
+                          <label>Identificación</label>
+                          <input type="text" v-model="listaClienteEdit.NUM_IDENTIFICACION" class="form-control"
+                            v-model="cedCliente">
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="form-group">
+                          <label for="Nomcliente">Nombre</label>
+                          <input type="text" id="Nomcliente" v-model="listaClienteEdit.NOM_CLIENTE" class="form-control">
+                        </div>
+                      </div>
+                    </div>
+  
+                    <!-- Fila 2 -->
+                    <div class="row">
+                      <div class="col-md-2">
+                        <div class="form-group ">
+                          <label>Estado</label>
+                          <input type="text" v-model="listaClienteEdit.IND_ESTADO" class="form-control">
+                        </div>
+                      </div>
+                      <div class="col-md-2">
+                        <div class="form-group">
+                          <label for="numTelefono">Número Celular</label>
+                          <input type="text" id="numTelefono" v-model="listaClienteEdit.NUM_CELULAR" class="form-control">
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="form-group">
+                          <label for="numTelefono">Número Teléfono</label>
+                          <input type="text" id="numTelefono" v-model="listaClienteEdit.NUM_TELEFONO" class="form-control">
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="form-group">
+                          <label>Correo Eletrónico</label>
+                          <input type="email" id="listaClienteEdit.DIR_EMAIL" v-model="listaClienteEdit.DIR_EMAIL"
+                            class="form-control">
+                        </div>
+                      </div>
+                    </div>
+  
+                    <!-- Fila 3 -->
+                    <div class="row">
+                      <div class="col-md-2">
+                        <div class="form-group">
+                          <label>Género</label>
+                          <select v-model="listaClienteEdit.IND_TIPOSEXO" class="form-control">
+                            <option v-for="item in listaGenero">{{item.campo}}</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-md-2">
+                        <div class="form-group">
+                          <label>Estado Civil</label>
+                          <select v-model="listaClienteEdit.IND_ESTADOCIVIL" class="form-control">
+                            <option v-for="item in listaEstadoCivil">{{item.campo}}</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="form-group">
+                          <label>Tipo Cliente</label>
+                          <select v-model="listaClienteEdit.IND_TIPOCLIENTE" class="form-control">
+                            <option v-for="item in listaTipoCliente">{{item.campo}}</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="form-group">
+                          <label>Fecha Nacimiento</label>
+                          <input type="date" v-model="listaClienteEdit.FEC_NACIMIENTO" class="form-control">
+                        </div>
+                      </div>
+                    </div>
+  
+                    <!-- Sección Datos Cliente -->
+                    <h4 class="form-section"><i class="fa fa-home"></i>Datos Domicilio</h4>
+                    <!-- Fila 1 -->
+                    <div class="row">
+                      <div class="col-md-3">
+                        <div class="form-group">
+                          <label for="provincia">Provincia</label>
+                          <select id="provincia" v-model="provincia" class="form-control">
+                            <option value="1">San José</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="form-group">
+                          <label for="canton">Cantón</label>
+                          <select id="canton" v-model="canton" class="form-control">
+                            <option value="1">Puriscal</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="form-group">
+                          <label for="distrito">Distrito</label>
+                          <select id="distrito" v-model="distrito" class="form-control">
+                            <option value="1">Santiago</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="form-group">
+                          <label for="ubicacion">Ubicación</label>
+                          <select id="ubicacion" v-model="ubicacion" class="form-control">
+                            <option value="1">Junquillo Arriba</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+  
+                    <!-- Fila 2 -->
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="form-group">
+                          <label for="direccion">Dirección</label>
+                          <textarea id="direccion" class="form-control" style="resize: vertical;" rows="3"></textarea>
+                        </div>
+                      </div>
+                    </div>
+  
+                    <div class="form-actions">
+                      <button type="button" class="btn btn-info" >
+                        <i class="fa fa-check-square-o"></i> Guardar Cambios
+                      </button>
+                      <button type="button" class="btn btn-danger mr-1" onclick="window.location.href='listaClienteEdits.html'">
+                        <i class="ft-x"></i> Salir
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      </section>
+      <!-- // Basic form layout section end -->
+    </div>
+  </div>
+
+  <!-- ////////////////////////////////////////////////////////////////////////////-->
+
+  <footer class="footer footer-static footer-light navbar-border">
+    <p class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2">
+      <span class="float-md-left d-block d-md-inline-block">Copyright &copy; 2019
+        <a class="text-bold-800 grey darken-2" href="#" target="_blank">DIVISOFT, </a>
+        Todos los derechos reservados.
+      </span></p>
+  </footer>
+  <!-- BEGIN Custom JS-->
+  <script language="JavaScript" type="text/javascript" src="js/Request.js"></script>
+  <script language="JavaScript" type="text/javascript" src="js/MensaStore.js"></script>
+  <script language="JavaScript" type="text/javascript" src="js/Clientes.js"></script>
+  <!-- END Custom JS-->
+  <!-- BEGIN VENDOR JS-->
+  <script src="recursos/vendors/js/vendors.min.js"></script>
+  <!-- END VENDOR JS-->
+  <!-- BEGIN PAGE VENDOR JS-->
+  <script src="recursos/vendors/js/extensions/listjs/list.min.js"></script>
+  <script src="recursos/vendors/js/extensions/listjs/list.fuzzysearch.min.js"></script>
+  <script src="recursos/vendors/js/extensions/listjs/list.pagination.min.js"></script>
+  <!-- END PAGE VENDOR JS-->
+  <!-- BEGIN ROBUST JS-->
+  <script src="recursos/js/core/app-menu.js"></script>
+  <script src="recursos/js/core/app.js"></script>
+  <!-- END ROBUST JS-->
+  <!-- BEGIN PAGE LEVEL JS
+  <script src="recursos/js/scripts/extensions/list.js"></script>-->
+  <!-- END PAGE LEVEL JS-->
+
+</body>
+
+</html>

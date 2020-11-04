@@ -1,0 +1,411 @@
+[{
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 3,
+	"nombre": "DESAMPARADOS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 4,
+	"nombre": "PURISCAL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 5,
+	"nombre": "TARRAZU"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 6,
+	"nombre": "ASERRI"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 7,
+	"nombre": "MORA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 8,
+	"nombre": "GOICOECHEA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 9,
+	"nombre": "SANTA ANA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 10,
+	"nombre": "ALAJUELITA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 11,
+	"nombre": "CORONADO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 12,
+	"nombre": "ACOSTA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 13,
+	"nombre": "TIBAS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 14,
+	"nombre": "MORAVIA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 15,
+	"nombre": "MONTES DE OCA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 16,
+	"nombre": "TURRUBARES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 17,
+	"nombre": "DOTA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 18,
+	"nombre": "CURRIDABAT"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 19,
+	"nombre": "PEREZ ZELEDON"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 20,
+	"nombre": "LEON CORTES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 1,
+	"nombre": "CENTRAL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 1,
+	"nombre": "CENTRAL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 2,
+	"nombre": "SAN RAMON"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 3,
+	"nombre": "GRECIA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 4,
+	"nombre": "SAN MATEO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 5,
+	"nombre": "ATENAS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 6,
+	"nombre": "NARANJO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 7,
+	"nombre": "PALMARES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 8,
+	"nombre": "POAS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 9,
+	"nombre": "OROTINA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 10,
+	"nombre": "SAN CARLOS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 11,
+	"nombre": "ALFARO RUIZ"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 12,
+	"nombre": "VALVERDE VEGA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 13,
+	"nombre": "UPALA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 14,
+	"nombre": "LOS CHILES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 21,
+	"nombre": "SAN JOSE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 1,
+	"nombre": "CENTRAL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 2,
+	"nombre": "PARAISO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 4,
+	"nombre": "JIMENEZ"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 5,
+	"nombre": "TURRIALBA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 7,
+	"nombre": "OREAMUNO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 8,
+	"nombre": "EL GUARCO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 2,
+	"nombre": "BARVA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 3,
+	"nombre": "SANTO DOMINGO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 5,
+	"nombre": "SAN RAFAEL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 6,
+	"nombre": "SAN ISIDRO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 7,
+	"nombre": "BELEN"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 8,
+	"nombre": "FLORES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 9,
+	"nombre": "SAN PABLO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 10,
+	"nombre": "SARAPIQUI"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 1,
+	"nombre": "LIBERIA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 2,
+	"nombre": "NICOYA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 3,
+	"nombre": "SANTA CRUZ"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 4,
+	"nombre": "BAGACES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 5,
+	"nombre": "CARRILLO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 6,
+	"nombre": "CAÑAS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 7,
+	"nombre": "ABANGARES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 8,
+	"nombre": "TILARAN"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 9,
+	"nombre": "NANDAYURE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 10,
+	"nombre": "LA CRUZ"
+}, {
+	"codigo_pais": 506,
+	"provincia": 5,
+	"canton": 11,
+	"nombre": "HOJANCHA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 1,
+	"nombre": "CENTRAL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 2,
+	"nombre": "ESPARZA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 3,
+	"nombre": "BUENOS AIRES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 4,
+	"nombre": "MONTES DE ORO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 5,
+	"nombre": "OSA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 6,
+	"nombre": "AGUIRRE"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 7,
+	"nombre": "GOLFITO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 8,
+	"nombre": "COTO BRUS"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 9,
+	"nombre": "PARRITA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 10,
+	"nombre": "CORREDORES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 6,
+	"canton": 11,
+	"nombre": "GARABITO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 7,
+	"canton": 1,
+	"nombre": "CENTRAL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 1,
+	"canton": 2,
+	"nombre": "ESCAZU"
+}, {
+	"codigo_pais": 506,
+	"provincia": 7,
+	"canton": 2,
+	"nombre": "POCOCI"
+}, {
+	"codigo_pais": 506,
+	"provincia": 7,
+	"canton": 3,
+	"nombre": "SIQUIRRES"
+}, {
+	"codigo_pais": 506,
+	"provincia": 7,
+	"canton": 4,
+	"nombre": "TALAMANCA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 7,
+	"canton": 5,
+	"nombre": "MATINA"
+}, {
+	"codigo_pais": 506,
+	"provincia": 7,
+	"canton": 6,
+	"nombre": "GUACIMO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 2,
+	"canton": 15,
+	"nombre": "GUATUSO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 3,
+	"nombre": "LA UNION"
+}, {
+	"codigo_pais": 506,
+	"provincia": 3,
+	"canton": 6,
+	"nombre": "ALVARADO"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 1,
+	"nombre": "CENTRAL"
+}, {
+	"codigo_pais": 506,
+	"provincia": 4,
+	"canton": 4,
+	"nombre": "SANTA BARBARA"
+}]

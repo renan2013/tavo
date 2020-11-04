@@ -1,0 +1,180 @@
+.body{
+   background-color:red!important;
+   padding:0px!important;
+   margin:0px!important;
+   }
+   /*raiz padre tamaño del padre*/
+   .container_mente{
+   width:100%!important;
+   }
+   /*raiz hija */
+   .formularios{
+   width:100%!important;	
+   margin-left:0px!important;
+   margin-top:10px!important;
+   }
+   /*raiz nieta formularios-------------- clases columnas*/
+   .forms_unaC{
+   margin-top:10px;
+   /*de los formularios*/
+   width:42%;
+   float:left;
+   margin-left:12px;
+   }
+   .forms_dosC{
+   margin-top:10px!important;
+   /*de los formularios*/
+   width:40%!important;
+   float:left!important;
+   margin-left:12px!important;
+   }
+   .forms_tresC{
+   margin-top:10px!important;
+   /*de los formularios*/
+   width:32%!important;
+   float:left!important;
+   margin-left:10px!important;
+   }
+   /*-fin-------------------------------------------------*/
+   .input_id{
+   width:100%!important;	
+   height:30px!important;
+   }
+   /*raiz nieta boton*/
+   .botonera{
+   /*tamaño del contenedor de la botonera*/
+   padding:10px!important;
+   clear:both!important;
+   width:80%!important;
+   }
+   /*colores y tamaño generico inputs*/
+   .input{
+   /*tamaño de los input*/
+   width:100%!important;	
+   height:30px!important;
+   }
+   /*colores y tamaño generico inputs*/
+   .prueba{
+   /*tamaño de los input*/
+   width:30%!important;	
+   margin-bottom:8px!important;
+   height:30px!important;
+   margin-right:90%!important;
+   }
+   /*colores y tamaño botones*/
+   .input_btn{
+   width:20%!important;
+   margin-bottom:5px!important;
+   }
+   /*media Query pantalla mediana*/
+   @media (max-width: 800px) { 
+   .input{
+   width:100%!important;	
+   height:30px!important;
+   }
+   /*media para definir los forms depediendo de la clase*/
+   .forms_unaC{
+   margin-left:5%!important;
+   margin-top:10px!important;
+   width:90%!important;
+   margin-right:-85%!important;
+   padding:0px!important;
+   float:none!important;
+   }
+   .forms_dosC{
+   margin-left:5%!important;
+   margin-top:10px!important;
+   width:90%!important;
+   margin-right:-85%!important;
+   padding:0px!important;
+   float:none!important;
+   }
+   .forms_tresC{
+   margin-left:5%!important;
+   margin-top:10px!important;
+   width:90%!important;
+   margin-right:-85%!important;
+   padding:0px!important;
+   float:none!important;
+   }
+   .input_btn{
+   width:40%!important;
+   }
+   .forms_dosC{
+   margin-left:5%!important;
+   margin-top:10px!important;
+   width:90%!important;
+   margin-right:-85%!important;
+   padding:0px!important;
+   float:none!important;
+   }
+   .input_btn{
+   width:40%!important;
+   }
+   .forms_tresC{
+   margin-left:5%!important;
+   margin-top:10px!important;
+   width:90%!important;
+   margin-right:-85%!important;
+   padding:0px!important;
+   float:none!important;
+   }
+   /*Fin--------------------------------------*/	
+   .input_btn{
+   width:40%!important;
+   }
+   .botonera{
+   padding:10px!important;
+   clear:both!important;
+   width:40%!important;
+   }	
+   }
+   /*media Query pantalla pequeña*/
+   @media (max-width: 500px) {
+   #form1{
+   margin-left:0px!important;
+   margin-top:10px!important;
+   width:100%!important;
+   margin-right:-85%!important;
+   padding:0px!important;
+   float:none!important;
+   }
+   #form2{
+   width:100%!important;
+   margin-left:0px!important;
+   margin-top:10px!important;
+   float:none!important;
+   }
+   #form3{
+   width:100%!important;
+   margin-left:0px!important;
+   margin-top:10px!important;
+   margin-right:-17%!important;
+   float:none!important;
+   }
+   .botonera{
+   padding:10px!important;
+   clear:both!important;
+   width:90%!important;
+   }
+  
+   }
+   /*Promts------------------------------------------------------------------------------------*/
+    .Promt_idP{
+        }
+    .Promt_id{
+    /* display: block!important; */
+    
+    font-size: 14px!important;
+    line-height: 1.42857143!important;
+    color: #555!important;
+    background-color: #fff!important;
+    background-image: none!important;
+    border: 1px solid #ccc!important;
+    border-radius: 4px!important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075)!important;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075)!important;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s!important;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s!important;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s!important;
+    }

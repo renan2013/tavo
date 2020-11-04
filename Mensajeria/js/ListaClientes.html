@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html class="loading" lang="en" data-textdirection="ltr">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <title>MT - Clientes</title>
+    <link rel="apple-touch-icon" href="recursos/images/ico/truck-icon-120.png">
+    <link rel="shortcut icon" type="image/x-icon" href="recursos/images/ico/tracking.png">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i%7CMuli:300,400,500,700"
+        rel="stylesheet">
+    <!-- BEGIN VENDOR CSS-->
+    <link rel="stylesheet" type="text/css" href="recursos/css/vendors.css">
+    <link rel="stylesheet" type="text/css" href="recursos/DataTables/datatables.min.css" />
+    <!--END VENDOR CSS-->
+    <!-- BEGIN ROBUST CSS-->
+    <link rel="stylesheet" type="text/css" href="recursos/css/app.css">
+    <!-- END ROBUST CSS-->
+    <!-- BEGIN Page Level CSS-->
+    <link rel="stylesheet" type="text/css" href="recursos/css/core/menu/menu-types/vertical-menu.css">
+    <link rel="stylesheet" type="text/css" href="recursos/css/core/colors/palette-gradient.css">
+    <!-- END Page Level CSS-->
+    <!-- BEGIN Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- BEGIN VUE.JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-resource/1.5.1/vue-resource.min.js"></script>
+    <script src="https://unpkg.com/lodash@4.13.1/lodash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vuex/3.1.1/vuex.js"></script>
+    <!-- END VUE.JS-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+
+</head>
+
+<body class="vertical-layout">
+
+    <!-- Titulo y breadcrumb -->
+    <div class="app-content content">
+        <div class="content-wrapper">
+            <!-- Basic card layout section start -->
+            <div class="content-body" id="appCliente">
+                <section class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <!--Encabezado de página-->
+                            <div class="card-head">
+                                <div class="card-header">
+                                    <h4 class="card-title">Lista Clientes</h4>
+                                    <a class="heading-elements-toggle"><i class="ft-ellipsis-h font-medium-3"></i></a>
+                                    <div class="heading-elements">
+                                        <button class="btn btn-primary btn-sm"
+                                            onclick="window.location.href='AgregarCliente.html'"><i
+                                                class="ft-plus white"></i> Nuevo
+                                            Cliente</button>
+
+                                        <button class="btn btn-info btn-sm" type="button" data-toggle="collapse"
+                                            data-target="#collapseExample" aria-expanded="false"
+                                            aria-controls="collapseExample"><i class="ft-search white"></i>
+                                            Buscar
+                                        </button>
+                                    </div><br>
+                                    <!--Boton Buscar-->
+                                    <div class="collapse" id="collapseExample">
+                                        <!-- Fila 1 -->
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <div class="form-group ">
+                                                    <label>Tipo: </label>
+                                                    <select v-model="selected">
+                                                        <option v-for="item in gridBuscar">{{item.campo}}</option>
+                                                    </select>
+                                                    <label>Valor a buscar: </label>
+                                                    <input type="text" id="valorBuscar" v-model="valorBuscar">
+                                                    <p>{{ notas }}</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <button type="button" v-on:click="buscarClientes"
+                                            class="btn btn-sm btn-warning">Realizar Busqueda</button>
+                                        <button type="button" v-on:click="inicioGrid"
+                                            class="btn btn-sm btn-info">Limpiar Busqueda</button>
+
+                                    </div>
+                                </div>
+                                <!--DT clientes-->
+                                <div class="card-content collapse show">
+                                    <div class="card-body">
+                                        <!-- Task List table -->
+                                        <table class="table table-striped table-bordered dt-responsive nowrap"
+                                            style="width:100%" id="dt">
+                                            <thead>
+                                                <th></th>
+                                                <th>Editar</th>
+                                                <th>Eliminar</th>
+                                                <th>Nombre</th>
+                                                <th>Cédula</th>
+                                                <th>Celular</th>
+                                                <th>Teléfono</th>
+                                                <th>Email</th>
+                                                <th>Dirección</th>
+
+                                            </thead>
+                                            <tbody>
+                                                <!-- inicio v-for fila 1 -->
+                                                <tr v-for="(item, index) in campos.rows">
+                                                    <td></td>
+                                                    <td> <button type="button" v-on:click="buscarEditarCliente(item)"
+                                                            class="btn btn-sm btn-outline-info black">
+                                                            <i class="fa  fa-pencil black"></i></button></td>
+
+                                                    <td>
+                                                        <button type="button" v-on:click="borrarCliente(item)"
+                                                            class="btn btn-sm btn-outline-danger black">
+                                                            <i class="fa fa-trash-o black"></i></button>
+                                                    </td>
+                                                    <td> {{item.NOM_CLIENTE}}</td>
+                                                    <td> {{item.NUM_IDENTIFICACION}}</td>
+                                                    <td> {{item.NUM_CELULAR}}</td>
+                                                    <td> {{item.NUM_TELEFONO}}</td>
+                                                    <td> {{item.DIR_EMAIL}}</td>
+                                                    <td> {{item.COD_PROVINCIA}},{{item.COD_CANTON}}</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <br>
+                                        <label>Página:</label>
+                                        <select name="numPagina" @change="onchangePage()" class="form-control-sm"
+                                            v-model="pag">
+                                            <option selected={{item}} v-for="item in 3">{{item}}</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <!--end DT clientes-->
+                            </div>
+                        </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <!-- ////////////////////////////////////////////////////////////////////////////-->
+
+    <!-- BEGIN Custom JS-->
+    <script language="JavaScript" type="text/javascript" src="js/Request.js"></script>
+    <script language="JavaScript" type="text/javascript" src="js/MensaStore.js"></script>
+    <script language="JavaScript" type="text/javascript" src="js/Clientes.js"></script>
+
+    <!--END Custom JS-->
+
+
+
+    <!-- BEGIN VENDOR JS-->
+    <script src="recursos/vendors/js/vendors.min.js"></script>
+    <!-- BEGIN VENDOR JS-->
+
+    <!-- BEGIN PAGE VENDOR JS-->
+    <script type="text/javascript" src="recursos/DataTables/datatables.min.js"></script>
+    <!--<script src="recursos/js/scripts/tables/datatables-extensions/datatable-responsive.js"></script>
+     END PAGE VENDOR JS-->
+
+    <!-- BEGIN PAGE LEVEL JS-->
+
+    <script src="recursos/js/scripts/extensions/sweet-alerts.js"></script>
+    <!-- END PAGE LEVEL JS-->
+
+    <!-- BEGIN ROBUST JS-->
+    <script src="recursos/js/core/app-menu.js"></script>
+    <script src="recursos/js/core/app.js"></script>
+    <!-- END ROBUST JS-->
+
+</body>
+
+</html>

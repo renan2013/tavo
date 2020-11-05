@@ -6,7 +6,7 @@
     id="page-login"
   >
     
-    <div class="vx-col sm:w-1/2 md:w-1/2 lg:w-3/4 xl:w-3/5 sm:m-0 m-4">
+    <div class="vx-col sm:w-1/2 md:w-1/2 lg:w-3/4 xl:w-3/5 sm:m-0 m-4" id="login2">
       
         
           <div class="vx-row no-gutter justify-center items-center">
@@ -74,6 +74,10 @@ img{
 .desoa{
   
   margin-top:-40px;
+}
+
+#login2{
+  
 }
 
 

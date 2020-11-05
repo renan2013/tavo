@@ -70,23 +70,13 @@
             <div class="vx-col w-full lg:w-1/2">
                 <vx-card class="mt-base" v-for="(post, index) in userPosts" :key="index">
                     <div>
-                        <!-- POST HEADER -->
-                        <div class="post-header flex justify-between mb-4">
-                            <div class="flex items-center">
-                                <div>
-                                    <vs-avatar class="m-0" :src="userLatestPhotos[0]" size="45px"></vs-avatar>
-                                </div>
-                                <div class="ml-4">
-                                    <h6>{{ post.author }}</h6>
-                                    <small>{{ post.time | date(true) }} at {{ post.time | time }}</small>
-                                </div>
-                            </div>
-                            <div class="flex">
-                                <feather-icon class="ml-4" icon="HeartIcon" :svgClasses="{'text-danger fill-current stroke-current': post.isLiked}"></feather-icon>
-                            </div>
-                        </div>
+                        
+                            <h3>Misión</h3>
+                            <p>jfhsdgdgsfhgdhf hjsdfghgdfhgdhf hdgfhdgf hfghgdfh</p>
 
-                        <!-- POST CONTENT -->
+                            <h3>Visión</h3>
+                            <p>jfhsdgdgsfhgdhf hjsdfghgdfhgdhf hdgfhdgf hfghgdfh</p>
+                        
                     
                         
 

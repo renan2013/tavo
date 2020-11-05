@@ -68,13 +68,13 @@
 
             <!-- COL 2 -->
             <div class="vx-col w-full lg:w-1/2">
-                <vx-card class="mt-base" v-for="(post, index) in userPosts" :key="index">
+                <vx-card class="mt-base" >
                     <div>
                         
                             <h3>Misión</h3>
                             <p>jfhsdgdgsfhgdhf hjsdfghgdfhgdhf hdgfhdgf hfghgdfh</p>
 
-                            <h3>Visión</h3>
+                            <h3>Nuestra Visión</h3>
                             <p>jfhsdgdgsfhgdhf hjsdfghgdfhgdhf hdgfhdgf hfghgdfh</p>
                         
                     
@@ -134,35 +134,9 @@ export default {
         require("@/assets/images/profile/user-uploads/user-01.jpg"),
         require("@/assets/images/profile/user-uploads/user-02.jpg"),
         require("@/assets/images/profile/user-uploads/user-04.jpg"),
-        require("@/assets/images/profile/user-uploads/user-03.jpg"),
-        require("@/assets/images/profile/user-uploads/user-05.jpg"),
+        require("@/assets/images/profile/user-uploads/user-03.jpg")
       ],
-      userPosts: [
-        {
-          author: "Leeanna Alvord",
-          time: "Mon Dec 12 2018 07:46:05 GMT+0000 (GMT)",
-          isLiked: true,
-          text:
-            "I love jujubes wafer pie ice cream tiramisu. Chocolate I love pastry pastry sesame snaps wafer. Pastry topping biscuit lollipop topping I love lemon drops sweet roll bonbon. Brownie donut icing.",
-          media: [{ img: require("@/assets/images/profile/post-media/2.jpg") }],
-          
-          commentbox: "",
-          usersCommented: [
-            {
-              comment: "orthoplumbate morningtide naphthaline exarteritis",
-              author: "Kitty Allanson",
-              img: require("@/assets/images/portrait/small/avatar-s-6.jpg"),
-              time: "Mon Dec 10 2018 08:56:05 GMT+0000 (GMT)",
-            },
-            {
-              comment: "blockiness pandemy metaxylene speckle coppy",
-              author: "Jeanie Bulgrin",
-              img: require("@/assets/images/portrait/small/avatar-s-8.jpg"),
-              time: "Mon Dec 10 2018 08:55:00 GMT+0000 (GMT)",
-            },
-          ],
-        },
-      ],
+      
       
      
     
